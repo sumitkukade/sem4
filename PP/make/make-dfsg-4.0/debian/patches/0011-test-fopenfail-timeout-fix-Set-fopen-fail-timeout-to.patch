@@ -1,0 +1,51 @@
+From a94ea051c5a91f3aa34405d1f549d88325701af1 Mon Sep 17 00:00:00 2001
+From: Manoj Srivastava <srivasta@golden-gryphon.com>
+Date: Fri, 13 Jun 2014 14:33:29 -0700
+Subject: [PATCH 11/11] [test-fopenfail-timeout-fix]: Set fopen-fail timeout to
+ 300
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Thanks to Víctor M. Jáquez L. <vjaquez@igalia.com> for the solution.
+
+The problem is, if I understand it correctly, the timeout value:
+
+By default the test timeout (tests/test_driver.pl) is 5 seconds, but in this
+particular test, the timeout is reached before hitting the "too many open
+files" error, which is the expected error. This is the case when the computer
+is not under a heavy load.
+
+This commit changes the timeout value only for the fail-open test to
+300, allowing the tests to pass.
+
+Signed-off-by: Manoj Srivastava <srivasta@golden-gryphon.com>
+---
+ tests/test_driver.pl | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/tests/test_driver.pl b/tests/test_driver.pl
+index 2f83270..194d6fa 100644
+--- a/tests/test_driver.pl
++++ b/tests/test_driver.pl
+@@ -419,7 +419,9 @@ sub run_all_tests
+ {
+     $categories_run = 0;
+ 
++    my $save_timeout = $test_timeout;
+     foreach $testname (sort @TESTS) {
++        local $test_timeout = $save_timeout;
+         $suite_passed = 1;       # reset by test on failure
+         $num_of_logfiles = 0;
+         $num_of_tmpfiles = 0;
+@@ -462,6 +464,7 @@ sub run_all_tests
+         $tests_run = 0;
+         $tests_passed = 0;
+ 
++	if ($testname =~ m{misc/fopen-fail}msx) { $test_timeout = 300; }
+         # Run the test!
+         $code = do $perl_testname;
+ 
+-- 
+2.0.0
+

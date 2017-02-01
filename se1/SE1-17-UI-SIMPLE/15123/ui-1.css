@@ -1,0 +1,24 @@
+body {
+    background-color:transparent;
+    margin: auto;
+
+}
+div{
+
+    padding: 3px;
+}
+body{
+width:960px;
+margin:45px auto;
+}
+
+button{
+width:246px;
+height:40px;
+margin-bottom:20px;
+margin-left:0px
+}
+
+input{
+padding:5px;
+}

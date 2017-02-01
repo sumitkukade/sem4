@@ -1,0 +1,25 @@
+From accf44ed08577a5df94eca5bf67583827b900eb2 Mon Sep 17 00:00:00 2001
+From: Paul Smith <psmith@gnu.org>
+Date: Sun, 12 Jan 2014 00:13:22 -0500
+Subject: [PATCH 05/11] * commands.c: [SV 40789] Remove unneeded header dlfcn.h
+
+---
+ commands.c | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/commands.c b/commands.c
+index f910358..eda75df 100644
+--- a/commands.c
++++ b/commands.c
+@@ -14,8 +14,6 @@ A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ You should have received a copy of the GNU General Public License along with
+ this program.  If not, see <http://www.gnu.org/licenses/>.  */
+ 
+-#include <dlfcn.h>
+-
+ #include "makeint.h"
+ #include "filedef.h"
+ #include "dep.h"
+-- 
+2.0.0
+

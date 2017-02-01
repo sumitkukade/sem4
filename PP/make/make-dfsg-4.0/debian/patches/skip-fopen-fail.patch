@@ -1,0 +1,40 @@
+Description: Drop test based on ulimit
+ Testing ulimit settings is machine dependent and unreliable
+ as a test of the built code. Skip this test and drop previous
+ code which tried to timeout instead.
+ .
+ make-dfsg (4.0-8.1) unstable; urgency=medium
+ .
+   * Non-maintainer upload.
+   * Skip the work/misc/fopen-fail.mk as it is testing the underlying
+     machine, not the built code from the package and is machine-dependent.
+     (Closes: #748657)
+Author: Neil Williams <codehelp@debian.org>
+Bug-Debian: https://bugs.debian.org/748657
+
+---
+
+--- make-dfsg-4.0.orig/tests/test_driver.pl
++++ make-dfsg-4.0/tests/test_driver.pl
+@@ -464,14 +464,14 @@ sub run_all_tests
+         $tests_run = 0;
+         $tests_passed = 0;
+ 
+-	if ($testname =~ m{misc/fopen-fail}msx) { $test_timeout = 300; }
+-        # Run the test!
+-        $code = do $perl_testname;
+-
+-        ++$categories_run;
+-        $total_tests_run += $tests_run;
+-        $total_tests_passed += $tests_passed;
++        if ($testname =~ m{misc/fopen-fail}msx) { $code = -1; } else {
++            # Run the test!
++            $code = do $perl_testname;
+ 
++            ++$categories_run;
++            $total_tests_run += $tests_run;
++            $total_tests_passed += $tests_passed;
++        }
+         # How did it go?
+         if (!defined($code)) {
+             # Failed to parse or called die

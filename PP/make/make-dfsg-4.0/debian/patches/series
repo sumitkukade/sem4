@@ -1,0 +1,13 @@
+# exported from git by git-debcherry
+0001-debcherry-fixup-patch.patch
+0002-SV-40139-Modify-missing-separator-for-better-transla.patch
+0003-read.c-record_files-SV-33034-Change-fatal-to-error.patch
+0004-load.c-SV-40515-Define-RTLD_GLOBAL-if-not-set.patch
+0005-commands.c-SV-40789-Remove-unneeded-header-dlfcn.h.patch
+0006-configure.ac-SV-40790-Fix-load-autoconf-variables.patch
+0007-job.c-set_child_handler_action_flags-SV-41341.patch
+0008-SV-42249-Propagate-correct-rule-status-results.patch
+0009-handle_excessive_command_length-Patch-to-fix-large-c.patch
+0010-makeint.h-STOP_SET-SV-40371-Cast-to-unsigned-char.patch
+0011-test-fopenfail-timeout-fix-Set-fopen-fail-timeout-to.patch
+skip-fopen-fail.patch

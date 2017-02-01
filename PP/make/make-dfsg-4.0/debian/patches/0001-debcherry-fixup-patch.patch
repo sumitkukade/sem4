@@ -1,0 +1,68 @@
+From 1817da6859317c4bd3603fc002fc0cb3668d8984 Mon Sep 17 00:00:00 2001
+From: Manoj Srivastava <srivasta@golden-gryphon.com>
+Date: Fri, 13 Jun 2014 15:45:18 -0700
+Subject: [PATCH 01/11] debcherry fixup patch
+
+147ab2d git-archimport-id: srivasta@debian.org--lenny/make-dfsg--debian--3.81--patch-3
+	 - no changes against upstream or conflicts
+1d865a1 [topic--multi-arch]: NMU changes from Steve Langaseck to support multi-arch.
+	 - extra changes or conflicts
+---
+ Makefile.am |  2 +-
+ remake.c    | 18 ++++++++++++++++--
+ 2 files changed, 17 insertions(+), 3 deletions(-)
+
+diff --git a/Makefile.am b/Makefile.am
+index 4c07f70..e3bbe57 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -63,7 +63,7 @@ endif
+ 
+ man_MANS =	make.1
+ 
+-DEFS =		-DLOCALEDIR=\"$(localedir)\" -DLIBDIR=\"$(libdir)\" -DINCLUDEDIR=\"$(includedir)\" @DEFS@
++DEFS =		-DLOCALEDIR=\"$(localedir)\" -DLIBDIR=\"$(libdir)\" -DINCLUDEDIR=\"$(includedir)\" -DMULTIARCH_DIRS="$(MULTIARCH_DIRS)" @DEFS@
+ 
+ AM_CPPFLAGS =	$(GLOBINC)
+ AM_CFLAGS =	$(GUILE_CFLAGS)
+diff --git a/remake.c b/remake.c
+index 138cdc6..d5386eb 100644
+--- a/remake.c
++++ b/remake.c
+@@ -1522,9 +1522,11 @@ library_search (const char *lib, FILE_TIMESTAMP *mtime_ptr)
+ {
+   static char *dirs[] =
+     {
++#ifdef MULTIARCH_DIRS
++      MULTIARCH_DIRS
++#endif
+ #ifndef _AMIGA
+       "/lib",
+-      "/usr/lib",
+ #endif
+ #if defined(WINDOWS32) && !defined(LIBDIR)
+ /*
+@@ -1533,7 +1535,19 @@ library_search (const char *lib, FILE_TIMESTAMP *mtime_ptr)
+  */
+ #define LIBDIR "."
+ #endif
+-      LIBDIR,                   /* Defined by configuration.  */
++      LIBDIR,			/* Defined by configuration.  */
++#ifndef _AMIGA
++/*
++ * In the Debian binaries, PREFIX is /usr and thus this searches /lib,
++ * /usr/lib and /usr/lib again and therefore misses any libraries that
++ * are not packaged and were installed by the site admin.  The ideal
++ * behaviour would be to have the search path set by a Makefile
++ * variable (other than the VPATH blunt object) but even absent that,
++ * it would be more useful if it looked in /usr/local/lib even though
++ * make itself hasn't been installed in the /usr/local tree -- manoj
++ */
++      "/usr/local/lib",
++#endif
+       0
+     };
+ 
+-- 
+2.0.0
+

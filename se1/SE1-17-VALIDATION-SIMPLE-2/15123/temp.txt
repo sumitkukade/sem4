@@ -1,0 +1,13 @@
+#
+15144.txt (rollno, 15144)
+(group members, [15129,15144])
+#
+15150.txt (rollno, 15150)
+  (group members, [15126])
+#
+15106.txt [
+  (rollno,15106)
+  (group members,[15106])
+#
+15126.txt (rollno,15126)
+(group members,15106)

@@ -1,0 +1,1174 @@
+ADDRESS_FUNCTION	alloca.c	/^#define ADDRESS_FUNCTION(arg) (char *) i00afunc (&/
+ADDRESS_FUNCTION	alloca.c	/^#define ADDRESS_FUNCTION(arg) &(arg)$/
+ADD_FLAG	main.c	/^#define ADD_FLAG(ARG, LEN) \\$/
+ADD_FLAG	main.c	3130
+ADD_SIG	main.c	/^#define ADD_SIG(sig)    sigaddset (&fatal_signal_s/
+ADD_SIG	main.c	/^#define ADD_SIG(sig)    fatal_signal_mask |= sigma/
+ADD_SIG	main.c	/^#define ADD_SIG(sig)    (void)sig$/
+ALIGN_SIZE	alloca.c	148
+ARFMAG	arscan.c	262
+ARG_NUMBER_DIGITS	job.c	3246
+ARMAG	arscan.c	260
+ARMAG	arscan.c	281
+AR_HDR_SIZE	arscan.c	296
+AR_MEMHDR_SZ	arscan.c	/^#define       AR_MEMHDR_SZ(x) (sizeof(x) - sizeof /
+Amiga_version	amiga.c	26
+BSD	getloadavg.c	124
+BSD	getloadavg.c	131
+BSD	getloadavg.c	140
+CACHE_BUFFER_ALLOC	strcache.c	/^#define CACHE_BUFFER_ALLOC(_s)  ((_s) - (2 * sizeo/
+CACHE_BUFFER_BASE	strcache.c	41
+CACHE_BUFFER_OFFSET	strcache.c	43
+CACHE_BUFFER_SIZE	strcache.c	/^#define CACHE_BUFFER_SIZE(_s)   (CACHE_BUFFER_ALLO/
+CALLOC	hash.c	/^#define	CALLOC(t, n) ((t *) xcalloc (sizeof (t) * /
+CLONE	hash.c	/^#define CLONE(o, t, n) ((t *) memcpy (MALLOC (t, (/
+CRAY_STACK	alloca.c	241
+DEFAULT_TMPDIR	main.c	1755
+DEFAULT_TMPDIR	main.c	1758
+DEFAULT_TMPDIR	main.c	1760
+DEFAULT_TMPFILE	main.c	1763
+DEFINE_VARIABLE	commands.c	/^#define DEFINE_VARIABLE(name, len, value) \\$/
+DEFINE_VARIABLE	commands.c	322
+DIRECTORY_BUCKETS	dir.c	208
+DIRFILE_BUCKETS	dir.c	406
+ELIDE_CODE	getopt1.c	47
+ELIDE_CODE	getopt.c	55
+EVAL_LEN	job.c	3247
+EVAL_LEN	job.c	3250
+EVAL_STRING	guile.c	/^# define EVAL_STRING(_s)    scm_c_eval_string (_s)/
+EVAL_STRING	guile.c	/^# define EVAL_STRING(_s)    scm_eval_string (scm_f/
+EXPANSION_INCREMENT	file.c	/^#define EXPANSION_INCREMENT(_l)  ((((_l) \/ 500) + /
+EXPANSION_INCREMENT	variable.c	/^#define EXPANSION_INCREMENT(_l)  ((((_l) \/ 500) + /
+EXPORT_COMMAND	remote-cstms.c	36
+EXTRANEOUS	read.c	/^#define EXTRANEOUS() error (flocp, _("extraneous t/
+FAKE_DIR_ENTRY	dir.c	/^# define FAKE_DIR_ENTRY(dp)$/
+FAKE_DIR_ENTRY	dir.c	/^# define FAKE_DIR_ENTRY(dp) (dp->d_ino = 1)$/
+FATAL_SIG	main.c	/^#define FATAL_SIG(sig)                            /
+FATAL_SIG	main.c	1159
+FAT_ADJ_OFFSET	remake.c	1364
+FD_CLOEXEC	getloadavg.c	918
+FD_NOT_EMPTY	output.c	/^#define FD_NOT_EMPTY(_f) ((_f) != OUTPUT_NONE && l/
+FD_OK	main.c	/^# define FD_OK(_f) ((fcntl ((_f), F_GETFD) != -1) /
+FD_OK	main.c	/^# define FD_OK(_f) 1$/
+FILE_BUCKETS	file.c	61
+FILE_LIST_SEPARATOR	commands.c	29
+FILE_LIST_SEPARATOR	commands.c	31
+FIXUP_KERNEL_SYMBOL_ADDR	getloadavg.c	/^#  define FIXUP_KERNEL_SYMBOL_ADDR(nl) ((nl)[0].n_/
+FSCALE	getloadavg.c	135
+FSCALE	getloadavg.c	141
+FSCALE	getloadavg.c	270
+FSCALE	getloadavg.c	271
+FSCALE	getloadavg.c	277
+FSCALE	getloadavg.c	278
+FSCALE	getloadavg.c	287
+FSCALE	getloadavg.c	291
+FSCALE	getloadavg.c	297
+FSCALE	getloadavg.c	298
+FSCALE	getloadavg.c	302
+FSCALE	getloadavg.c	306
+FSCALE	getloadavg.c	310
+FS_FAT	dir.c	224
+FS_NTFS	dir.c	225
+FS_UNKNOWN	dir.c	226
+FT_ENTRY	function.c	/^#define FT_ENTRY(_name, _min, _max, _exp, _func) \\/
+FUNCTION_TABLE_ENTRIES	function.c	2266
+GCC_IS_NATIVE	default.c	31
+GETOPT_INTERFACE_VERSION	getopt1.c	43
+GETOPT_INTERFACE_VERSION	getopt.c	51
+GSUBR_TYPE	guile.c	29
+GSUBR_TYPE	guile.c	33
+HAVE_SETEGID	misc.c	481
+HAVE_SETEUID	misc.c	480
+HAVE_SETREGID	misc.c	471
+HAVE_SETREUID	misc.c	470
+HAVE_WAIT_NOHANG	main.c	64
+INCLUDEDIR	read.c	109
+INIT_DSC_CSTRING	vmsify.c	/^#define INIT_DSC_CSTRING(dsc, s) INIT_DSC_S(dsc, s/
+INIT_DSC_S	vmsify.c	/^#define INIT_DSC_S(dsc, addr, len) do { \\$/
+IS_ABSOLUTE	function.c	/^#  define IS_ABSOLUTE(n) ((n[0] && n[1] == ':') ||/
+IS_ABSOLUTE	function.c	/^#  define IS_ABSOLUTE(n) (n[0] && n[1] == ':')$/
+IS_ABSOLUTE	function.c	/^#define IS_ABSOLUTE(n) (n[0] == '\/')$/
+KERNEL_FILE	getloadavg.c	326
+KERNEL_FILE	getloadavg.c	330
+KERNEL_FILE	getloadavg.c	334
+KERNEL_FILE	getloadavg.c	379
+LDAV_CVT	getloadavg.c	/^#  define LDAV_CVT(n) (LOAD_AVE_CVT (n) \/ 100.0)$/
+LDAV_CVT	getloadavg.c	/^#    define LDAV_CVT(n) (n)$/
+LDAV_CVT	getloadavg.c	/^#  define	LDAV_CVT(n) (((double) (n)) \/ FSCALE)$/
+LDAV_CVT	getloadavg.c	/^#   define LDAV_CVT(n) ((double) (n))$/
+LDAV_DONE	getloadavg.c	502
+LDAV_DONE	getloadavg.c	511
+LDAV_DONE	getloadavg.c	558
+LDAV_DONE	getloadavg.c	574
+LDAV_DONE	getloadavg.c	609
+LDAV_DONE	getloadavg.c	638
+LDAV_DONE	getloadavg.c	673
+LDAV_DONE	getloadavg.c	743
+LDAV_DONE	getloadavg.c	760
+LDAV_DONE	getloadavg.c	785
+LDAV_DONE	getloadavg.c	796
+LDAV_DONE	getloadavg.c	806
+LDAV_DONE	getloadavg.c	972
+LDAV_PRIVILEGED	getloadavg.c	861
+LDAV_SYMBOL	getloadavg.c	339
+LDAV_SYMBOL	getloadavg.c	343
+LDAV_SYMBOL	getloadavg.c	383
+LIBDIR	remake.c	1553
+LINUX_LDAV_FILE	getloadavg.c	578
+LOAD_AVE_TYPE	getloadavg.c	207
+LOAD_AVE_TYPE	getloadavg.c	211
+LOAD_AVE_TYPE	getloadavg.c	215
+LOAD_AVE_TYPE	getloadavg.c	219
+LOAD_AVE_TYPE	getloadavg.c	223
+LOAD_AVE_TYPE	getloadavg.c	227
+LOAD_AVE_TYPE	getloadavg.c	231
+LOAD_AVE_TYPE	getloadavg.c	235
+LOAD_AVE_TYPE	getloadavg.c	239
+LOAD_AVE_TYPE	getloadavg.c	243
+LOAD_AVE_TYPE	getloadavg.c	247
+LOAD_AVE_TYPE	getloadavg.c	251
+LOAD_AVE_TYPE	getloadavg.c	255
+LOAD_AVE_TYPE	getloadavg.c	259
+LOAD_AVE_TYPE	getloadavg.c	355
+LOAD_AVE_TYPE	getloadavg.c	559
+LOAD_AVE_TYPE	getloadavg.c	575
+LOAD_AVE_TYPE	getloadavg.c	610
+LOAD_WEIGHT_A	job.c	2102
+LOAD_WEIGHT_B	job.c	2103
+MAKECMP	dir.c	/^#define MAKECMP(_x,_y)  ((_x)<(_y)?-1:((_x)==(_y)?/
+MAKE_HOST	version.c	23
+MALLOC	hash.c	/^#define MALLOC(t, n) ((t *) xmalloc (sizeof (t) * /
+MAXCMDLEN	vmsjobs.c	215
+MAXPATHLEN	vmsify.c	224
+MAX_OPEN_DIRECTORIES	dir.c	368
+MERGE	file.c	/^#define MERGE(field) to_file->field |= from_file->/
+MERGE	file.c	327
+MORE_BSD	getloadavg.c	163
+MTIME	remake.c	/^#define MTIME(file) (rebuilding_makefiles ? file_m/
+M_XENIX	arscan.c	216
+Marscan	arscan.c	/^main (int argc, char **argv)$/
+Mgetloadavg	getloadavg.c	/^main (int argc, char **argv)$/
+Mgetopt	getopt.c	/^main (int argc, char **argv)$/
+Mgetopt1	getopt1.c	/^main (int argc, char **argv)$/
+Mmain	main.c	/^main (int argc, char **argv)$/
+MyExecute	amiga.c	/^MyExecute (char **argv)$/
+NAMLEN	dir.c	/^# define NAMLEN(dirent) strlen((dirent)->d_name)$/
+NAMLEN	dir.c	/^# define NAMLEN(dirent) (dirent)->d_namlen$/
+NAMLEN	dir.c	48
+NAMLEN	dir.c	/^# define NAMLEN(d) _D_NAMLEN(d)$/
+NETBSD_LDAV_FILE	getloadavg.c	613
+NEWELT	read.c	/^#define NEWELT(_n)  do { \\$/
+NONOPTION_P	getopt.c	517
+NONOPTION_P	getopt.c	521
+NSIG	signame.c	32
+NSIG	signame.c	34
+NULL	alloca.c	77
+NULL	getopt1.c	61
+N_CLOSED	vmsify.c	168
+N_DEVICE	vmsify.c	168
+N_DONE	vmsify.c	168
+N_DOT	vmsify.c	168
+N_OPEN	vmsify.c	168
+N_START	vmsify.c	168
+NeXT	getloadavg.c	407
+OSF_ALPHA	getloadavg.c	179
+OSF_MIPS	getloadavg.c	187
+OUTPUT_ISSET	output.c	/^#define OUTPUT_ISSET(_out) ((_out)->out >= 0 || (_/
+OUTPUT_NONE	output.c	45
+PAGE_SIZE	job.c	35
+PATH_SIZE	amiga.c	93
+PERFILE_VARIABLE_BUCKETS	variable.c	165
+PERMUTE	getopt.c	180
+PORTAR	arscan.c	225
+PORTAR	arscan.c	230
+PORTAR	arscan.c	232
+PRESERVE_BSNL	job.c	3311
+PRESERVE_BSNL	job.c	3313
+REALLOC	hash.c	/^#define REALLOC(o, t, n) ((t *) xrealloc ((o), siz/
+REAL_DIR_ENTRY	dir.c	/^# define REAL_DIR_ENTRY(dp) 1$/
+REAL_DIR_ENTRY	dir.c	/^# define REAL_DIR_ENTRY(dp) (dp->d_ino != 0)$/
+REAP_MORE	job.c	585
+REAP_MORE	job.c	587
+REQUIRE_ORDER	getopt.c	180
+RETURN_IN_ORDER	getopt.c	180
+ROOT_LEN	function.c	1957
+ROOT_LEN	function.c	1960
+RTLD_GLOBAL	load.c	35
+SARMAG	arscan.c	261
+SARMAG	arscan.c	282
+SEPCHARS	vmsjobs.c	84
+SIG_TABLE_SIZE	signame.c	47
+SMALL_SCOPE_VARIABLE_BUCKETS	variable.c	168
+STACK_DIR	alloca.c	109
+STACK_DIR	alloca.c	114
+STACK_DIRECTION	alloca.c	104
+STREAM_OK	output.c	/^# define STREAM_OK(_s)    ((fcntl (fileno (_s), F_/
+STREAM_OK	output.c	/^# define STREAM_OK(_s)    1$/
+SUNOS_5	getloadavg.c	175
+SVR4	getloadavg.c	171
+SVR4	getloadavg.c	200
+SWAP_FLAGS	getopt.c	/^# define SWAP_FLAGS(ch1, ch2) \\$/
+SWAP_FLAGS	getopt.c	/^# define SWAP_FLAGS(ch1, ch2)$/
+SYMBOL_EXTENSION	load.c	27
+S_ISLNK	remake.c	/^# define S_ISLNK(_m)     (((_m)&S_IFMT)==S_IFLNK)$/
+TEMPLATE_LEN	output.c	442
+TEMPLATE_LEN	output.c	444
+TOCHAR	arscan.c	/^# define TOCHAR(_m)     (_m)$/
+TOCHAR	arscan.c	/^# define TOCHAR(_m)     ((char *)(_m))$/
+TOUCH_ERROR	remake.c	/^#define TOUCH_ERROR(call) do{ perror_with_name ((c/
+UCHAR_MAX	main.c	549
+VARIABLE_BUCKETS	variable.c	162
+VARIABLE_BUFFER_ZONE	expand.c	43
+VERIFY_CACHED	file.c	/^#define VERIFY_CACHED(_p,_n) \\$/
+VMS_get_member_info	arscan.c	/^VMS_get_member_info (struct dsc$descriptor_s *modu/
+VMS_lib_idx	arscan.c	38
+VMS_member_date	arscan.c	42
+VMS_saved_memname	arscan.c	40
+WAIT_NOHANG	job.c	117
+WAIT_NOHANG	job.c	/^# define WAIT_NOHANG(status)    waitpid (-1, (stat/
+WAIT_NOHANG	job.c	/^#  define WAIT_NOHANG(status)   wait3 ((status), W/
+WAIT_T	job.c	145
+WAIT_T	job.c	165
+WCOREDUMP	job.c	/^#  define WCOREDUMP(x) ((x) & 0x80)$/
+WCOREDUMP	job.c	/^#  define WCOREDUMP(x) ((x).w_coredump)$/
+WEXITSTATUS	job.c	/^#  define WEXITSTATUS(x) (((x) >> 8) & 0xff)$/
+WEXITSTATUS	job.c	/^#  define WEXITSTATUS(x) ((x).w_retcode)$/
+WIFEXITED	job.c	/^#  define WIFEXITED(x) (WTERMSIG (x) == 0)$/
+WIFEXITED	job.c	/^#  define WIFEXITED(x) (WTERMSIG(x) == 0)$/
+WIFSIGNALED	job.c	/^#  define WIFSIGNALED(x) (WTERMSIG (x) != 0)$/
+WIFSIGNALED	job.c	/^#  define WIFSIGNALED(x) (WTERMSIG(x) != 0)$/
+WTERMSIG	job.c	/^#  define WTERMSIG(x) ((x) & 0x7f)$/
+WTERMSIG	job.c	/^#  define WTERMSIG(x) ((x).w_termsig)$/
+_	getopt.c	/^#define _(msgid)    gettext (msgid)$/
+_NO_PROTO	getopt.c	26
+_USE_LFN	dir.c	68
+__AR_BIG__	arscan.c	250
+__AR_SMALL__	arscan.c	249
+__getopt_initialized	getopt.c	127
+__stack	main.c	48
+_getopt_initialize	getopt.c	/^_getopt_initialize (int argc, char *const *argv, c/
+_getopt_internal	getopt.c	/^_getopt_internal (int argc, char *const *argv, con/
+_is_unixy_shell	job.c	/^_is_unixy_shell (const char *path)$/
+_outputs	output.c	/^_outputs (struct output *out, int is_err, const ch/
+a_pattern	function.c	886
+a_word	function.c	855
+a_word_hash_1	function.c	/^a_word_hash_1 (const void *key)$/
+a_word_hash_2	function.c	/^a_word_hash_2 (const void *key)$/
+a_word_hash_cmp	function.c	/^a_word_hash_cmp (const void *x, const void *y)$/
+abbrev	signame.c	52
+abspath	function.c	/^abspath (const char *name, char *apath)$/
+access_inited	misc.c	506
+acquire_semaphore	output.c	/^acquire_semaphore (void)$/
+add_hash	strcache.c	/^add_hash (const char *str, int len)$/
+add_string	strcache.c	/^add_string (const char *str, unsigned int len)$/
+align	alloca.c	153
+all_secondary	file.c	66
+alloc_fn	function.c	41
+alloc_func_ptr	function.c	34
+alloca	alloca.c	/^alloca (unsigned size)$/
+allocated	read.c	91
+allocated_variable_append	expand.c	/^allocated_variable_append (const struct variable */
+allocated_variable_expand_for_file	expand.c	/^allocated_variable_expand_for_file (const char *li/
+alpha_compare	misc.c	/^alpha_compare (const void *v1, const void *v2)$/
+always_make_flag	main.c	291
+always_make_set	main.c	290
+amiga_batch_file	job.c	98
+amiga_bname	job.c	97
+amiga_pid	job.c	95
+amiga_status	job.c	96
+ansi_free	dir.c	/^ansi_free (void *p)$/
+ar_date	arscan.c	266
+ar_date	arscan.c	287
+ar_fmag	arscan.c	270
+ar_gid	arscan.c	267
+ar_gid	arscan.c	289
+ar_glob	ar.c	/^ar_glob (const char *arname, const char *member_pa/
+ar_glob_match	ar.c	/^ar_glob_match (int desc UNUSED, const char *mem, i/
+ar_glob_state	ar.c	175
+ar_hdr	arscan.c	263
+ar_hdr	arscan.c	283
+ar_member_date	ar.c	/^ar_member_date (const char *name)$/
+ar_member_date_1	ar.c	/^ar_member_date_1 (int desc UNUSED, const char *mem/
+ar_member_pos	arscan.c	/^ar_member_pos (int desc UNUSED, const char *mem, i/
+ar_member_touch	arscan.c	/^ar_member_touch (const char *arname, const char *m/
+ar_mode	arscan.c	268
+ar_mode	arscan.c	285
+ar_name	ar.c	/^ar_name (const char *name)$/
+ar_name	arscan.c	265
+ar_name	arscan.c	284
+ar_name_equal	arscan.c	/^ar_name_equal (const char *name, const char *mem, /
+ar_parse_name	ar.c	/^ar_parse_name (const char *name, char **arname_p, /
+ar_scan	arscan.c	/^ar_scan (const char *archive, ar_member_func_t fun/
+ar_scan	arscan.c	/^ar_scan (const char *archive, ar_member_func_t fun/
+ar_size	arscan.c	269
+ar_size	arscan.c	286
+ar_touch	ar.c	/^ar_touch (const char *name)$/
+ar_touch	ar.c	/^ar_touch (const char *name)$/
+ar_uid	arscan.c	267
+ar_uid	arscan.c	288
+arg	main.c	3028
+arname	ar.c	177
+assign_v	read.c	64
+assign_variable_definition	variable.c	/^assign_variable_definition (struct variable *v, ch/
+astYHandler	vmsjobs.c	/^astYHandler (void)$/
+batch_mode_shell	job.c	44
+batch_mode_shell	job.c	51
+batch_mode_shell	job.c	60
+batch_mode_shell	job.c	65
+batch_mode_shell	job.c	71
+batch_mode_shell	job.c	76
+batch_mode_shell	job.c	81
+block_remote_children	remote-cstms.c	/^block_remote_children (void)$/
+block_remote_children	remote-stub.c	/^block_remote_children (void)$/
+block_sigs	job.c	/^block_sigs (void)$/
+bsd_signal	main.c	571
+bsd_signal	main.c	/^bsd_signal (int sig, bsd_signal_ret_t func)$/
+bsd_signal_ret_t	main.c	573
+buffer	output.c	616
+buffer	read.c	52
+buffer	strcache.c	35
+bufnext	read.c	53
+bufsize	strcache.c	46
+bufstart	read.c	54
+build_target_list	file.c	/^build_target_list (char *value)$/
+build_vpath_lists	vpath.c	/^build_vpath_lists ()$/
+bytesfree	strcache.c	33
+c	main.c	91
+c_else	read.c	1569
+c_endif	read.c	1569
+c_ifdef	read.c	1569
+c_ifeq	read.c	1569
+c_ifndef	read.c	1569
+c_ifneq	read.c	1569
+chain	ar.c	180
+chain	function.c	858
+chan	vmsjobs.c	225
+channel	getloadavg.c	475
+check_dep	remake.c	/^check_dep (struct file *file, unsigned int depth,$/
+check_numeric	function.c	/^check_numeric (const char *s, const char *msg)$/
+check_symlink_flag	main.c	199
+checked_lastslash	implicit.c	175
+child_access	misc.c	/^child_access (void)$/
+child_error	job.c	/^child_error (struct child *child,$/
+child_execute_job	job.c	/^child_execute_job (int stdin_fd, int stdout_fd, in/
+child_execute_job	job.c	/^child_execute_job (int stdin_fd, int stdout_fd, in/
+child_execute_job	vmsjobs.c	/^child_execute_job (char *argv, struct child *child/
+child_handler	job.c	/^child_handler (int sig UNUSED)$/
+children	job.c	228
+chkword	read.c	/^#define chkword(s, t)   if (word1eq (s)) { cmdtype/
+chop_commands	commands.c	/^chop_commands (struct commands *cmds)$/
+clean_jobserver	main.c	/^clean_jobserver (int status)$/
+clean_tmp	job.c	/^void clean_tmp (void)$/
+clock_skew_detected	main.c	545
+close_stdout	output.c	/^close_stdout (void)$/
+closedir	vmsfunctions.c	/^closedir (DIR *dir)$/
+cmd_prefix	main.c	303
+collapse_continuations	misc.c	/^collapse_continuations (char *line)$/
+command_switch	main.c	89
+command_variable	main.c	473
+command_variables	main.c	478
+commands_started	remake.c	56
+complain	remake.c	/^complain (struct file *file)$/
+concat	misc.c	/^concat (unsigned int num, ...)$/
+conditional_line	read.c	/^conditional_line (char *line, int len, const gmk_f/
+conditionals	read.c	88
+conditionals	read.c	99
+considered	remake.c	59
+const	getopt1.c	29
+const	getopt.c	37
+construct_command_argv	job.c	/^construct_command_argv (char *line, char **restp, /
+construct_command_argv_internal	job.c	/^construct_command_argv_internal (char *line, char /
+construct_include_path	read.c	/^construct_include_path (const char **arg_dirs)$/
+construct_vpath_list	vpath.c	/^construct_vpath_list (char *pattern, char *dirpath/
+contents	dir.c	341
+contents	dir.c	1096
+convert_suffix_rule	rule.c	/^convert_suffix_rule (const char *target, const cha/
+convert_to_pattern	rule.c	/^convert_to_pattern (void)$/
+copy_dep_chain	misc.c	/^copy_dep_chain (const struct dep *d)$/
+copyto	vmsify.c	/^copyto (char **to, const char **from, char upto, i/
+count	strcache.c	34
+count	vmsjobs.c	250
+count_implicit_rule_limits	rule.c	/^count_implicit_rule_limits (void)$/
+cpus	getloadavg.c	465
+create_batch_file	job.c	/^create_batch_file (char const *base, int unixy, in/
+create_new_variable_set	variable.c	/^create_new_variable_set (void)$/
+create_pattern_rule	rule.c	/^create_pattern_rule (const char **targets, const c/
+create_pattern_var	variable.c	/^create_pattern_var (const char *target, const char/
+cs	main.c	3027
+ctime	dir.c	221
+ctrlMask	vmsjobs.c	222
+ctrlYPressed	vmsjobs.c	108
+current_access	misc.c	507
+current_address	alloca.c	314
+current_size	alloca.c	315
+current_variable_set_list	variable.c	174
+cvt_scm_to_str	guile.c	/^cvt_scm_to_str (SCM obj)$/
+cvt_time	vmsfunctions.c	/^cvt_time (unsigned long tval)$/
+db_flags	main.c	153
+db_level	main.c	156
+dead_children	job.c	543
+debug_flag	main.c	154
+debug_signal_handler	main.c	/^debug_signal_handler (int sig UNUSED)$/
+decode_debug_flags	main.c	/^decode_debug_flags (void)$/
+decode_env_switches	main.c	/^decode_env_switches (char *envar, unsigned int len/
+decode_output_sync_flags	main.c	/^decode_output_sync_flags (void)$/
+decode_switches	main.c	/^decode_switches (int argc, char **argv, int env)$/
+decstation	getloadavg.c	167
+deep	alloca.c	157
+default_file	main.c	508
+default_goal_var	main.c	502
+default_include_directories	read.c	104
+default_job_slots	main.c	228
+default_keep_going_flag	main.c	195
+default_load_average	main.c	253
+default_load_average	main.c	256
+default_pattern_rules	default.c	54
+default_set	getloadavg.c	460
+default_shell	job.c	42
+default_shell	job.c	49
+default_shell	job.c	59
+default_shell	job.c	64
+default_shell	job.c	70
+default_shell	job.c	75
+default_shell	job.c	80
+default_suffix_rules	default.c	111
+default_suffixes	default.c	39
+default_terminal_rules	default.c	78
+default_value	main.c	111
+default_variables	default.c	313
+define_automatic_variables	variable.c	/^define_automatic_variables (void)$/
+define_default_variables	default.c	/^define_default_variables (void)$/
+define_makeflags	main.c	/^define_makeflags (int all, int makefile)$/
+define_new_function	function.c	/^define_new_function (const gmk_floc *flocp, const /
+define_v	read.c	65
+define_variable_in_set	variable.c	/^define_variable_in_set (const char *name, unsigned/
+delete_child_targets	commands.c	/^delete_child_targets (struct child *child)$/
+delete_target	commands.c	/^delete_target (struct file *file, const char *on_b/
+dep_hash_1	commands.c	/^dep_hash_1 (const void *key)$/
+dep_hash_2	commands.c	/^dep_hash_2 (const void *key)$/
+dep_hash_cmp	commands.c	/^dep_hash_cmp (const void *x, const void *y)$/
+describe_member	arscan.c	/^describe_member (int desc, const char *name, int t/
+dev	dir.c	213
+die	main.c	/^die (int status)$/
+dir_contents_file_exists_p	dir.c	/^dir_contents_file_exists_p (struct directory_conte/
+dir_file_exists_p	dir.c	/^dir_file_exists_p (const char *dirname, const char/
+dir_name	dir.c	/^dir_name (const char *dir)$/
+dir_setup_glob	dir.c	/^dir_setup_glob (glob_t *gl)$/
+directories	dir.c	364
+directories	main.c	261
+directory	dir.c	334
+directory_before_chdir	main.c	486
+directory_contents	dir.c	211
+directory_contents	dir.c	332
+directory_contents_hash_1	dir.c	/^directory_contents_hash_1 (const void *key_0)$/
+directory_contents_hash_2	dir.c	/^directory_contents_hash_2 (const void *key_0)$/
+directory_contents_hash_cmp	dir.c	/^directory_contents_hash_cmp (const void *xv, const/
+directory_hash_1	dir.c	/^directory_hash_1 (const void *key)$/
+directory_hash_2	dir.c	/^directory_hash_2 (const void *key)$/
+directory_hash_cmp	dir.c	/^directory_hash_cmp (const void *x, const void *y)$/
+dirent	dir.c	30
+dirfile	dir.c	375
+dirfile_hash_1	dir.c	/^dirfile_hash_1 (const void *key)$/
+dirfile_hash_2	dir.c	/^dirfile_hash_2 (const void *key)$/
+dirfile_hash_cmp	dir.c	/^dirfile_hash_cmp (const void *xv, const void *yv)$/
+dirfile_slot	dir.c	1097
+dirfiles	dir.c	234
+dirstream	dir.c	235
+dirstream	dir.c	1094
+dlp	load.c	42
+do_define	read.c	/^do_define (char *name, enum variable_origin origin/
+do_undefine	read.c	/^do_undefine (char *name, enum variable_origin orig/
+do_variable_definition	variable.c	/^do_variable_definition (const gmk_floc *flocp, con/
+dos_command_running	job.c	90
+dos_pid	job.c	88
+dos_status	job.c	89
+dosify	dir.c	/^dosify (const char *filename)$/
+downcase	dir.c	/^downcase (const char *filename)$/
+dsc$a_pointer	getloadavg.c	826
+dsc$w_length	getloadavg.c	825
+dup2	job.c	/^dup2 (int old, int new)$/
+dvi	vmsjobs.c	251
+ebuffer	read.c	50
+end	strcache.c	32
+end_of_token	misc.c	/^end_of_token (const char *s)$/
+enter_file	file.c	/^enter_file (const char *name)$/
+enter_prereqs	file.c	/^enter_prereqs (struct dep *deps, const char *stem)/
+env	main.c	106
+env_overrides	main.c	170
+error	output.c	/^error (const gmk_floc *flocp, const char *fmt, .../
+eval	read.c	/^eval (struct ebuffer *ebuf, int set_default)$/
+eval_buffer	read.c	/^eval_buffer (char *buffer, const gmk_floc *floc)$/
+eval_makefile	read.c	/^eval_makefile (const char *filename, int flags)$/
+eval_strings	main.c	276
+exchange	getopt.c	/^exchange (char **argv)$/
+exec_command	job.c	/^exec_command (char **argv, char **envp)$/
+exec_command	job.c	/^void exec_command (char **argv)$/
+execute_by_shell	job.c	87
+execute_file_commands	commands.c	/^execute_file_commands (struct file *file)$/
+exit	main.c	/^void exit (int) __attribute__ ((noreturn));$/
+expand_args	function.c	40
+expand_argument	expand.c	/^expand_argument (const char *str, const char *end)/
+expand_builtin_function	function.c	/^expand_builtin_function (char *o, int argc, char */
+expand_command_line_file	main.c	/^expand_command_line_file (char *name)$/
+expand_deps	file.c	/^expand_deps (struct file *f)$/
+expanding_var	expand.c	29
+export_all_variables	variable.c	950
+export_v	read.c	67
+extends	alloca.c	306
+f_mtime	remake.c	/^f_mtime (struct file *file, int search)$/
+fatal	output.c	/^fatal (const gmk_floc *flocp, const char *fmt, .../
+fatal_error_signal	commands.c	/^fatal_error_signal (int sig)$/
+fatal_signal_mask	main.c	565
+fatal_signal_set	main.c	562
+file	implicit.c	154
+file_exists_p	dir.c	/^file_exists_p (const char *name)$/
+file_hash_1	file.c	/^file_hash_1 (const void *key)$/
+file_hash_2	file.c	/^file_hash_2 (const void *key)$/
+file_hash_cmp	file.c	/^file_hash_cmp (const void *x, const void *y)$/
+file_impossible	dir.c	/^file_impossible (const char *filename)$/
+file_impossible_p	dir.c	/^file_impossible_p (const char *filename)$/
+file_timestamp_cons	file.c	/^file_timestamp_cons (const char *fname, time_t sta/
+file_timestamp_now	file.c	/^file_timestamp_now (int *resolution)$/
+file_timestamp_sprintf	file.c	/^file_timestamp_sprintf (char *p, FILE_TIMESTAMP ts/
+filename	main.c	98
+files	file.c	63
+find_and_set_default_shell	main.c	/^find_and_set_default_shell (const char *token)$/
+find_char_unquote	read.c	/^find_char_unquote (char *string, int map)$/
+find_directory	dir.c	/^find_directory (const char *name)$/
+find_next_argument	function.c	/^find_next_argument (char startparen, char endparen/
+find_next_token	misc.c	/^find_next_token (const char **ptr, unsigned int *l/
+find_percent	read.c	/^find_percent (char *pattern)$/
+find_percent_cached	read.c	/^find_percent_cached (const char **string)$/
+find_stack_direction	alloca.c	/^find_stack_direction (void)$/
+finish_updating	remake.c	/^#define finish_updating(_f) (((_f)->double_colon ?/
+first_nonopt	getopt.c	240
+flag	main.c	95
+flag	main.c	3024
+flag_off	main.c	96
+floating	main.c	100
+floc	read.c	57
+fmtbuf	output.c	619
+fmtconcat	output.c	/^fmtconcat (const char *fmt, ...)$/
+fmtstring	output.c	614
+fold_newlines	function.c	/^fold_newlines (char *buffer, unsigned int *length,/
+fp	read.c	56
+fptr	function.c	35
+free_child	job.c	/^free_child (struct child *child)$/
+free_dep_chain	misc.c	/^free_dep_chain (struct dep *d)$/
+free_ns_chain	misc.c	/^free_ns_chain (struct nameseq *ns)$/
+free_variable_name_and_value	variable.c	/^free_variable_name_and_value (const void *item)$/
+free_variable_set	variable.c	/^free_variable_set (struct variable_set_list *list)/
+freerule	rule.c	/^freerule (struct rule *rule, struct rule *lastrule/
+fs_flags	dir.c	223
+fullcache	strcache.c	48
+func_abspath	function.c	/^func_abspath (char *o, char **argv, const char *fu/
+func_addsuffix_addprefix	function.c	/^func_addsuffix_addprefix (char *o, char **argv, co/
+func_and	function.c	/^func_and (char *o, char **argv, const char *funcna/
+func_basename_dir	function.c	/^func_basename_dir (char *o, char **argv, const cha/
+func_call	function.c	/^func_call (char *o, char **argv, const char *funcn/
+func_eq	function.c	/^func_eq (char *o, char **argv, char *funcname UNUS/
+func_error	function.c	/^func_error (char *o, char **argv, const char *func/
+func_eval	function.c	/^func_eval (char *o, char **argv, const char *funcn/
+func_file	function.c	/^func_file (char *o, char **argv, const char *funcn/
+func_filter_filterout	function.c	/^func_filter_filterout (char *o, char **argv, const/
+func_findstring	function.c	/^func_findstring (char *o, char **argv, const char /
+func_firstword	function.c	/^func_firstword (char *o, char **argv, const char */
+func_flavor	function.c	/^func_flavor (char *o, char **argv, const char *fun/
+func_foreach	function.c	/^func_foreach (char *o, char **argv, const char *fu/
+func_guile	guile.c	/^func_guile (const char *funcname UNUSED, unsigned /
+func_if	function.c	/^func_if (char *o, char **argv, const char *funcnam/
+func_join	function.c	/^func_join (char *o, char **argv, const char *funcn/
+func_lastword	function.c	/^func_lastword (char *o, char **argv, const char *f/
+func_not	function.c	/^func_not (char *o, char **argv, char *funcname UNU/
+func_notdir_suffix	function.c	/^func_notdir_suffix (char *o, char **argv, const ch/
+func_or	function.c	/^func_or (char *o, char **argv, const char *funcnam/
+func_origin	function.c	/^func_origin (char *o, char **argv, const char *fun/
+func_patsubst	function.c	/^func_patsubst (char *o, char **argv, const char *f/
+func_ptr	function.c	/^      char *(*func_ptr) (char *output, char **argv/
+func_realpath	function.c	/^func_realpath (char *o, char **argv, const char *f/
+func_shell	function.c	1615
+func_shell	function.c	/^func_shell (char *o, char **argv, const char *func/
+func_shell_base	function.c	/^func_shell_base (char *o, char **argv, int trim_ne/
+func_shell_base	function.c	/^func_shell_base (char *o, char **argv, int trim_ne/
+func_shell_base	function.c	/^func_shell_base (char *o, char **argv, int trim_ne/
+func_sort	function.c	/^func_sort (char *o, char **argv, const char *funcn/
+func_strip	function.c	/^func_strip (char *o, char **argv, const char *func/
+func_subst	function.c	/^func_subst (char *o, char **argv, const char *func/
+func_value	function.c	/^func_value (char *o, char **argv, const char *func/
+func_wildcard	function.c	/^func_wildcard (char *o, char **argv, const char *f/
+func_word	function.c	/^func_word (char *o, char **argv, const char *funcn/
+func_wordlist	function.c	/^func_wordlist (char *o, char **argv, const char *f/
+func_words	function.c	/^func_words (char *o, char **argv, const char *func/
+function_table	function.c	69
+function_table_entry	function.c	30
+function_table_entry_hash_1	function.c	/^function_table_entry_hash_1 (const void *keyv)$/
+function_table_entry_hash_2	function.c	/^function_table_entry_hash_2 (const void *keyv)$/
+function_table_entry_hash_cmp	function.c	/^function_table_entry_hash_cmp (const void *xv, con/
+function_table_init	function.c	2221
+general_vpath	vpath.c	43
+get_next_mword	read.c	/^get_next_mword (char *buffer, char *delim, char **/
+get_next_word	implicit.c	/^get_next_word (const char *buffer, unsigned int *l/
+get_path_max	misc.c	/^get_path_max (void)$/
+getloadavg	getloadavg.c	/^getloadavg (double loadavg[], int nelem)$/
+getloadavg_initialized	getloadavg.c	461
+getloadavg_initialized	getloadavg.c	477
+getopt	getopt.c	/^getopt (int argc, char *const *argv, const char *o/
+getopt_long	getopt1.c	/^getopt_long (int argc, char *const *argv, const ch/
+getopt_long_only	getopt1.c	/^getopt_long_only (int argc, char *const *argv, con/
+getwd	vmsfunctions.c	/^getwd (char *cwd)$/
+glob_pattern_p	ar.c	/^glob_pattern_p (const char *pattern, int quote)$/
+global_setlist	variable.c	172
+global_variable_set	variable.c	171
+gmk_add_function	loadapi.c	/^gmk_add_function (const char *name, gmk_func_ptr f/
+gmk_alloc	loadapi.c	/^gmk_alloc (unsigned int len)$/
+gmk_eval	loadapi.c	/^gmk_eval (const char *buffer, const gmk_floc *floc/
+gmk_expand	loadapi.c	/^gmk_expand (const char *ref)$/
+gmk_free	loadapi.c	/^gmk_free (char *s)$/
+goals	main.c	468
+good_stdin_used	job.c	236
+gpath_search	vpath.c	/^gpath_search (const char *file, unsigned int len)$/
+gpaths	vpath.c	47
+guile_define_module	guile.c	/^guile_define_module (void *data UNUSED)$/
+guile_eval_wrapper	guile.c	/^guile_eval_wrapper (SCM obj)$/
+guile_expand_wrapper	guile.c	/^guile_expand_wrapper (SCM obj)$/
+guile_gmake_setup	guile.c	/^guile_gmake_setup (const gmk_floc *flocp UNUSED)$/
+guile_init	guile.c	/^guile_init (void *arg UNUSED)$/
+h	alloca.c	158
+handle_function	function.c	/^handle_function (char **op, const char **stringp)$/
+handle_non_switch_argument	main.c	/^handle_non_switch_argument (char *arg, int env)$/
+handle_runtime_exceptions	main.c	/^handle_runtime_exceptions (struct _EXCEPTION_POINT/
+handling_fatal_signal	commands.c	483
+hash_delete	hash.c	/^hash_delete (struct hash_table *ht, const void *it/
+hash_delete_at	hash.c	/^hash_delete_at (struct hash_table *ht, const void /
+hash_delete_items	hash.c	/^hash_delete_items (struct hash_table *ht)$/
+hash_deleted_item	hash.c	35
+hash_dump	hash.c	/^hash_dump (struct hash_table *ht, void **vector_0,/
+hash_find_item	hash.c	/^hash_find_item (struct hash_table *ht, const void /
+hash_find_slot	hash.c	/^hash_find_slot (struct hash_table *ht, const void /
+hash_free	hash.c	/^hash_free (struct hash_table *ht, int free_items)$/
+hash_free_items	hash.c	/^hash_free_items (struct hash_table *ht)$/
+hash_init	hash.c	/^hash_init (struct hash_table *ht, unsigned long si/
+hash_init_directories	dir.c	/^hash_init_directories (void)$/
+hash_init_function_table	function.c	/^hash_init_function_table (void)$/
+hash_insert	hash.c	/^hash_insert (struct hash_table *ht, const void *it/
+hash_insert_at	hash.c	/^hash_insert_at (struct hash_table *ht, const void /
+hash_load	hash.c	/^hash_load (struct hash_table *ht, void *item_table/
+hash_map	hash.c	/^hash_map (struct hash_table *ht, hash_map_func_t m/
+hash_map_arg	hash.c	/^hash_map_arg (struct hash_table *ht, hash_map_arg_/
+hash_print_stats	hash.c	/^hash_print_stats (struct hash_table *ht, FILE *out/
+hash_rehash	hash.c	/^hash_rehash (struct hash_table *ht)$/
+hdr	alloca.c	151
+header	alloca.c	159
+high_water	alloca.c	303
+hits	alloca.c	305
+host_self	getloadavg.c	408
+hpux	getloadavg.c	151
+hpux	getloadavg.c	155
+i00afunc	alloca.c	/^i00afunc (long *address)$/
+i00afunc	alloca.c	/^i00afunc (long address)$/
+idx	main.c	126
+if_cmds	read.c	90
+ignore	main.c	101
+ignore_errors_flag	main.c	175
+ignore_mtime	implicit.c	155
+ignoring	read.c	92
+impossible	dir.c	379
+include_directories	main.c	265
+include_directories	read.c	122
+inf_jobs	main.c	233
+inhibit_print_directory_flag	main.c	208
+init_access	misc.c	/^init_access (void)$/
+init_hash_files	file.c	/^init_hash_files (void)$/
+init_hash_global_variable_set	variable.c	/^init_hash_global_variable_set (void)$/
+init_sig	signame.c	/^init_sig (int number, const char *abbrev, const ch/
+init_switches	main.c	/^init_switches (void)$/
+initial_address	alloca.c	318
+initial_size	alloca.c	319
+initialize_file_variables	variable.c	/^initialize_file_variables (struct file *file, int /
+initialize_global_hash_tables	main.c	/^initialize_global_hash_tables (void)$/
+initialize_stopchar_map	main.c	/^initialize_stopchar_map ()$/
+initialize_variable_output	expand.c	/^initialize_variable_output (void)$/
+ino	dir.c	229
+ino	dir.c	231
+install_conditionals	read.c	/^install_conditionals (struct conditionals *new)$/
+install_default_implicit_rules	default.c	/^install_default_implicit_rules (void)$/
+install_default_suffix_rules	default.c	/^install_default_suffix_rules (void)$/
+install_pattern_rule	rule.c	/^install_pattern_rule (struct pspec *p, int termina/
+install_variable_buffer	expand.c	/^install_variable_buffer (char **bufp, unsigned int/
+internal_guile_eval	guile.c	/^internal_guile_eval (void *arg)$/
+is_bourne_compatible_shell	job.c	/^is_bourne_compatible_shell (const char *path)$/
+is_updating	remake.c	/^#define is_updating(_f)     (((_f)->double_colon ?/
+job_counter	job.c	248
+job_fds	main.c	239
+job_next_command	job.c	/^job_next_command (struct child *child)$/
+job_noop	job.c	/^job_noop (int sig UNUSED)$/
+job_rfd	main.c	240
+job_slots	main.c	227
+job_slots_used	job.c	232
+jobserver_fds	main.c	237
+jobserver_tokens	job.c	252
+just_print_flag	main.c	149
+kd	getloadavg.c	486
+keep_going_flag	main.c	194
+last_alloca_header	alloca.c	161
+last_nonopt	getopt.c	241
+last_pattern_rule	rule.c	36
+last_pattern_vars	variable.c	38
+lastgoal	main.c	468
+len	function.c	37
+len	output.c	618
+length	dir.c	378
+length	function.c	860
+length	function.c	891
+library_search	remake.c	/^library_search (const char *lib, FILE_TIMESTAMP *m/
+lindex	misc.c	/^lindex (const char *s, const char *limit, int c)$/
+link	alloca.c	333
+list	main.c	125
+load_file	load.c	/^load_file (const gmk_floc *flocp, const char **ldn/
+load_file	load.c	/^load_file (const gmk_floc *flocp, const char **ldn/
+load_info	getloadavg.c	470
+load_list	load.c	38
+load_object	load.c	/^load_object (const gmk_floc *flocp, int noerror,$/
+load_too_high	job.c	/^load_too_high (void)$/
+loaded_syms	load.c	45
+local_stat	dir.c	1193
+local_stat	dir.c	/^local_stat (const char *path, struct stat *buf)$/
+log_access	misc.c	/^log_access (const char *flavor)$/
+log_working_directory	output.c	/^log_working_directory (int entering)$/
+long	alloca.c	264
+long	alloca.c	267
+long_name	main.c	113
+long_option_aliases	main.c	453
+lookup_file	file.c	/^lookup_file (const char *name)$/
+lookup_function	function.c	/^lookup_function (const char *s)$/
+lookup_pattern_var	variable.c	/^lookup_pattern_var (struct pattern_var *start, con/
+lookup_special_var	variable.c	/^lookup_special_var (struct variable *var)$/
+lookup_variable	variable.c	/^lookup_variable (const char *name, unsigned int le/
+lookup_variable_in_set	variable.c	/^lookup_variable_in_set (const char *name, unsigned/
+main_thread	job.c	45
+make	misc.c	507
+make_access	misc.c	/^make_access (void)$/
+make_host	version.c	27
+make_mod	guile.c	37
+make_sync	main.c	556
+make_word_type	read.c	73
+makefiles	main.c	216
+makelevel	main.c	494
+malloc	alloca.c	91
+master_job_slots	main.c	229
+matched	function.c	861
+matches	implicit.c	166
+max	main.c	127
+max_incl_len	read.c	126
+max_load_average	main.c	252
+max_load_average	main.c	255
+max_pattern_dep_length	rule.c	52
+max_pattern_deps	rule.c	48
+max_pattern_targets	rule.c	44
+maxc	alloca.c	300
+maximum_args	function.c	39
+maxlen	vpath.c	34
+maxs	alloca.c	312
+maxsuffix	rule.c	61
+merge_variable_set_lists	variable.c	/^merge_variable_set_lists (struct variable_set_list/
+merge_variable_sets	variable.c	/^merge_variable_sets (struct variable_set *to_set,$/
+message	output.c	/^message (int prefix, const char *fmt, ...)$/
+minimum_args	function.c	38
+msc_vsnprintf	output.c	/^msc_vsnprintf (char *str, size_t size, const char /
+msdos_openpipe	function.c	/^msdos_openpipe (int* pipedes, int *pidp, char *tex/
+msdos_return_to_initial_directory	main.c	/^msdos_return_to_initial_directory (void)$/
+mtime	dir.c	222
+my_index	getopt.c	192
+my_index	getopt.c	/^my_index (const char *str, int chr)$/
+n	ar.c	181
+name	dir.c	336
+name	dir.c	377
+name	function.c	36
+name	implicit.c	152
+name	load.c	41
+name_mtime	remake.c	/^name_mtime (const char *name)$/
+namestate	vmsify.c	168
+new_cache	strcache.c	/^new_cache ()$/
+new_files	main.c	273
+new_job	job.c	/^new_job (struct file *file)$/
+new_pattern_rule	rule.c	/^new_pattern_rule (struct rule *rule, int override)/
+next	alloca.c	156
+next	function.c	857
+next	function.c	888
+next	load.c	40
+next	main.c	475
+next	main.c	3026
+next	strcache.c	31
+next	vpath.c	29
+next_token	misc.c	/^next_token (const char *s)$/
+nextchar	getopt.c	136
+nl	getloadavg.c	482
+no_builtin_rules_flag	main.c	189
+no_builtin_variables_flag	main.c	190
+no_default_sh_exe	job.c	43
+no_makefile	main.c	108
+noarg_value	main.c	110
+nonoption_flags_len	getopt.c	251
+nonoption_flags_max_len	getopt.c	250
+normalized_cwd	remote-cstms.c	42
+not_parallel	main.c	539
+notice_finished_file	remake.c	/^notice_finished_file (struct file *file)$/
+now	alloca.c	299
+num_abbrev	signame.c	53
+num_pattern_rules	rule.c	40
+number	signame.c	51
+obj_to_str	guile.c	38
+offset	getloadavg.c	479
+oldCtrlMask	vmsjobs.c	223
+old_files	main.c	269
+one_shell	main.c	524
+open_directories	dir.c	370
+open_dirstream	dir.c	/^open_dirstream (const char *directory)$/
+opendir	vmsfunctions.c	/^opendir (char *dspec)$/
+optarg	getopt.c	106
+opterr	getopt.c	141
+optind	getopt.c	121
+optopt	getopt.c	147
+order	implicit.c	172
+ordering	getopt.c	181
+original_argc	getopt.c	253
+original_argv	getopt.c	254
+output_close	output.c	/^output_close (struct output *out)$/
+output_context	output.c	42
+output_dump	output.c	/^output_dump (struct output *out)$/
+output_init	output.c	/^output_init (struct output *out)$/
+output_start	output.c	/^output_start ()$/
+output_sync	main.c	530
+output_sync_option	main.c	160
+output_tmpfd	output.c	/^output_tmpfd ()$/
+output_tmpfile	output.c	/^output_tmpfile (char **name, const char *template)/
+outputs	output.c	/^outputs (int is_err, const char *msg)$/
+overflows	alloca.c	304
+override_v	read.c	68
+pad_size	alloca.c	313
+parse_file_seq	read.c	/^parse_file_seq (char **stringp, unsigned int size,/
+parse_var_assignment	read.c	/^parse_var_assignment (const char *line, struct vmo/
+parse_variable_definition	variable.c	/^parse_variable_definition (const char *p, struct v/
+patdeps	implicit.c	150
+path_key	dir.c	220
+patlen	vpath.c	32
+patsubst_expand	function.c	/^patsubst_expand (char *o, const char *text, char */
+patsubst_expand_pat	function.c	/^patsubst_expand_pat (char *o, const char *text,$/
+pattern	ar.c	178
+pattern	implicit.c	153
+pattern	vpath.c	30
+pattern_matches	function.c	/^pattern_matches (const char *pattern, const char */
+pattern_rules	rule.c	32
+pattern_search	implicit.c	/^pattern_search (struct file *file, int archive,$/
+pattern_vars	variable.c	34
+percent	function.c	890
+percent	vpath.c	31
+permit	remote-cstms.c	39
+perror_with_name	output.c	/^perror_with_name (const char *str, const char *nam/
+pfatal_with_name	output.c	/^pfatal_with_name (const char *name)$/
+pid2str	job.c	/^pid2str (pid_t pid)$/
+pointer	alloca.c	71
+pointer	alloca.c	73
+pop_variable_scope	variable.c	/^pop_variable_scope (void)$/
+positive_int	main.c	99
+posix_pedantic	main.c	513
+posixly_correct	getopt.c	184
+prepare_mutex_handle_string	main.c	/^prepare_mutex_handle_string (sync_handle_t handle)/
+print_auto_variable	variable.c	/^print_auto_variable (const void *item, void *arg)$/
+print_commands	commands.c	/^print_commands (const struct commands *cmds)$/
+print_data_base	main.c	/^print_data_base ()$/
+print_data_base_flag	main.c	180
+print_dir_data_base	dir.c	/^print_dir_data_base (void)$/
+print_directory_flag	main.c	203
+print_file	file.c	/^print_file (const void *item)$/
+print_file_data_base	file.c	/^print_file_data_base (void)$/
+print_file_variables	variable.c	/^print_file_variables (const struct file *file)$/
+print_noauto_variable	variable.c	/^print_noauto_variable (const void *item, void *arg/
+print_prereqs	file.c	/^print_prereqs (const struct dep *deps)$/
+print_rule	rule.c	/^print_rule (struct rule *r)$/
+print_rule_data_base	rule.c	/^print_rule_data_base (void)$/
+print_spaces	misc.c	/^print_spaces (unsigned int n)$/
+print_target_variables	variable.c	/^print_target_variables (const struct file *file)$/
+print_usage	main.c	/^print_usage (int bad)$/
+print_usage_flag	main.c	280
+print_variable	variable.c	/^print_variable (const void *item, void *arg)$/
+print_variable_data_base	variable.c	/^print_variable_data_base (void)$/
+print_variable_set	variable.c	/^print_variable_set (struct variable_set *set, char/
+print_version	main.c	/^print_version (void)$/
+print_version_flag	main.c	212
+print_vpath_data_base	vpath.c	/^print_vpath_data_base (void)$/
+private_v	read.c	69
+program	main.c	482
+pump_from_tmp	output.c	/^pump_from_tmp (int from, FILE *to)$/
+push_new_variable_scope	variable.c	/^push_new_variable_scope (void)$/
+question_flag	main.c	185
+quote_for_env	main.c	/^quote_for_env (char *out, const char *in)$/
+reEnableAst	vmsjobs.c	/^reEnableAst(void)$/
+read_all_makefiles	read.c	/^read_all_makefiles (const char **makefiles)$/
+read_dirstream	dir.c	/^read_dirstream (__ptr_t stream)$/
+read_files	read.c	135
+readdir	vmsfunctions.c	/^readdir (DIR *dir)$/
+reading_file	read.c	131
+readline	read.c	/^readline (struct ebuffer *ebuf)$/
+readstring	read.c	/^readstring (struct ebuffer *ebuf)$/
+reap_children	job.c	/^reap_children (int block, int err)$/
+rebuilding_makefiles	main.c	295
+record_files	read.c	/^record_files (struct nameseq *filenames, const cha/
+record_target_var	read.c	/^record_target_var (struct nameseq *filenames, char/
+record_waiting_files	read.c	/^#define record_waiting_files()                    /
+recursively_expand_for_file	expand.c	/^recursively_expand_for_file (struct variable *v, s/
+reference_variable	expand.c	/^reference_variable (char *o, const char *name, uns/
+rehash_file	file.c	/^rehash_file (struct file *from_file, const char *t/
+release_semaphore	output.c	/^release_semaphore (void *sem)$/
+remake_file	remake.c	/^remake_file (struct file *file)$/
+remote_cleanup	remote-cstms.c	/^remote_cleanup (void)$/
+remote_cleanup	remote-stub.c	/^remote_cleanup (void)$/
+remote_description	remote-cstms.c	32
+remote_description	remote-stub.c	23
+remote_kill	remote-cstms.c	/^remote_kill (int id, int sig)$/
+remote_kill	remote-stub.c	/^remote_kill (int id UNUSED, int sig UNUSED)$/
+remote_setup	remote-cstms.c	/^remote_setup (void)$/
+remote_setup	remote-stub.c	/^remote_setup (void)$/
+remote_status	remote-cstms.c	/^remote_status (int *exit_code_ptr, int *signal_ptr/
+remote_status	remote-stub.c	/^remote_status (int *exit_code_ptr UNUSED, int *sig/
+remove_comments	read.c	/^remove_comments (char *line)$/
+remove_intermediates	file.c	/^remove_intermediates (int sig)$/
+rename_file	file.c	/^rename_file (struct file *from_file, const char *t/
+reset_updating	file.c	/^reset_updating (const void *item)$/
+restore_conditionals	read.c	/^restore_conditionals (struct conditionals *saved)$/
+restore_variable_buffer	expand.c	/^restore_variable_buffer (char *buf, unsigned int l/
+round_up_2	hash.c	/^round_up_2 (unsigned long n)$/
+rule	implicit.c	163
+samples	getloadavg.c	466
+sc_buflen_t	strcache.c	28
+searchpath	vpath.c	33
+second_expansion	main.c	518
+seen_else	read.c	95
+segments	alloca.c	311
+selective_vpath_search	vpath.c	/^selective_vpath_search (struct vpath *path, const /
+set_append_mode	output.c	/^set_append_mode (int fd)$/
+set_child_handler_action_flags	job.c	/^set_child_handler_action_flags (int set_handler, i/
+set_command_state	file.c	/^set_command_state (struct file *file, enum cmd_sta/
+set_default_suffixes	default.c	/^set_default_suffixes (void)$/
+set_file_variables	commands.c	/^set_file_variables (struct file *file)$/
+set_intermediate	file.c	/^set_intermediate (const void *item)$/
+set_special_var	variable.c	/^set_special_var (struct variable *var)$/
+setlocale	getloadavg.c	/^# define setlocale(Category, Locale) \/* empty *\/$/
+setupYAstTried	vmsjobs.c	224
+setup_tmpfile	output.c	/^setup_tmpfile (struct output *out)$/
+shaseg	alloca.c	247
+shell_function_pid	function.c	1407
+shell_result	variable.c	/^shell_result (const char *p)$/
+shell_var	main.c	299
+shgrow	alloca.c	246
+shhwm	alloca.c	248
+short_option	main.c	/^#define short_option(c) ((c) <= CHAR_MAX)$/
+showall	vmsify.c	/^showall (char *s)$/
+shsize	alloca.c	249
+sig_table	signame.c	55
+sig_table_nelts	signame.c	58
+signame_init	signame.c	/^signame_init (void)$/
+silent_flag	main.c	139
+size	ar.c	179
+size	output.c	617
+size	read.c	55
+snap_deps	file.c	/^snap_deps (void)$/
+snapped_deps	file.c	37
+snprintf	output.c	64
+split_prereqs	file.c	/^split_prereqs (char *p)$/
+ss	alloca.c	261
+ssa0	alloca.c	276
+ssa1	alloca.c	277
+ssa2	alloca.c	278
+ssa3	alloca.c	279
+ssa4	alloca.c	280
+ssa5	alloca.c	281
+ssa6	alloca.c	282
+ssa7	alloca.c	283
+ssbase	alloca.c	263
+sscray	alloca.c	275
+sscsnm	alloca.c	269
+ssgvup	alloca.c	274
+sspseg	alloca.c	265
+sss0	alloca.c	284
+sss1	alloca.c	285
+sss2	alloca.c	286
+sss3	alloca.c	287
+sss4	alloca.c	288
+sss5	alloca.c	289
+sss6	alloca.c	290
+sss7	alloca.c	291
+sssize	alloca.c	262
+sstcpt	alloca.c	268
+sstpid	alloca.c	273
+ssusr1	alloca.c	271
+ssusr2	alloca.c	272
+stack_control_header	alloca.c	244
+stack_dir	alloca.c	113
+stack_limit	main.c	221
+stack_segment_linkage	alloca.c	259
+start_job_command	job.c	/^start_job_command (struct child *child)$/
+start_remote_job	remote-cstms.c	/^start_remote_job (char **argv, char **envp, int st/
+start_remote_job	remote-stub.c	/^start_remote_job (char **argv UNUSED, char **envp /
+start_remote_job_p	remote-cstms.c	/^start_remote_job_p (int first_p)$/
+start_remote_job_p	remote-stub.c	/^start_remote_job_p (int first_p UNUSED)$/
+start_updating	remake.c	/^#define start_updating(_f)  (((_f)->double_colon ?/
+start_waiting_job	job.c	/^start_waiting_job (struct child *c)$/
+start_waiting_jobs	job.c	/^start_waiting_jobs (void)$/
+starting_directory	main.c	490
+status	vmsjobs.c	250
+stdio_traced	output.c	43
+stemlen	implicit.c	169
+stemlen_compare	implicit.c	/^stemlen_compare (const void *v1, const void *v2)$/
+stk_stat	alloca.c	297
+stk_trailer	alloca.c	326
+stkm_free	alloca.c	310
+stko_free	alloca.c	309
+stko_mallocs	alloca.c	307
+stopchar_map	main.c	551
+store_args_and_env	getopt.c	/^store_args_and_env (int argc, char *const *argv)$/
+str	function.c	859
+str	function.c	889
+str_hash_1	strcache.c	/^str_hash_1 (const void *key)$/
+str_hash_2	strcache.c	/^str_hash_2 (const void *key)$/
+str_hash_cmp	strcache.c	/^str_hash_cmp (const void *x, const void *y)$/
+strcache	strcache.c	30
+strcache	strcache.c	47
+strcache_add	strcache.c	/^strcache_add (const char *str)$/
+strcache_add_len	strcache.c	/^strcache_add_len (const char *str, unsigned int le/
+strcache_init	strcache.c	/^strcache_init (void)$/
+strcache_iscached	strcache.c	/^strcache_iscached (const char *str)$/
+strcache_print_stats	strcache.c	/^strcache_print_stats (const char *prefix)$/
+strcache_setbufsize	strcache.c	/^strcache_setbufsize (unsigned int size)$/
+strcasecmp	misc.c	/^strcasecmp (const char *s1, const char *s2)$/
+strerror	misc.c	188
+strerror	misc.c	/^strerror (int errnum)$/
+string	main.c	97
+string_glob	function.c	/^string_glob (char *line)$/
+stringlist	main.c	123
+strings	strcache.c	147
+strip_whitespace	function.c	/^strip_whitespace (const char **begpp, const char */
+strncasecmp	misc.c	/^strncasecmp (const char *s1, const char *s2, int n/
+strsignal	signame.c	/^strsignal (int sig)$/
+subst_expand	function.c	/^subst_expand (char *o, const char *text, const cha/
+suffix_file	rule.c	57
+sun	getloadavg.c	159
+suspend_flag	main.c	165
+switches	main.c	392
+sync_Path_environment	variable.c	/^sync_Path_environment (void)$/
+sync_handle	output.c	195
+sync_init	output.c	/^sync_init ()$/
+sync_mutex	main.c	245
+sys_siglist	signame.c	43
+sys_siglist	signame.c	236
+sys_siglist	signame.c	238
+target_environment	variable.c	/^target_environment (struct file *file)$/
+tek4300	getloadavg.c	195
+this_address	alloca.c	328
+this_size	alloca.c	329
+tilde_expand	read.c	/^tilde_expand (const char *name)$/
+toenv	main.c	107
+toplevel_conditionals	read.c	98
+total_adds	strcache.c	148
+total_buffers	strcache.c	50
+total_size	strcache.c	52
+total_strings	strcache.c	51
+touch_file	remake.c	/^touch_file (struct file *file)$/
+touch_flag	main.c	144
+trace_flag	main.c	534
+trnlog	vmsify.c	/^trnlog (const char *name)$/
+tryToSetupYAst	vmsjobs.c	/^tryToSetupYAst(void)$/
+try_implicit_rule	implicit.c	/^try_implicit_rule (struct file *file, unsigned int/
+try_variable_definition	variable.c	/^try_variable_definition (const gmk_floc *flocp, ch/
+tryrule	implicit.c	161
+type	main.c	102
+unblock_remote_children	remote-cstms.c	/^unblock_remote_children (void)$/
+unblock_remote_children	remote-stub.c	/^unblock_remote_children (void)$/
+unblock_sigs	job.c	/^unblock_sigs (void)$/
+undefine_default_variables	default.c	/^undefine_default_variables (void)$/
+undefine_v	read.c	66
+undefine_variable_in_set	variable.c	/^undefine_variable_in_set (const char *name, unsign/
+underflows	alloca.c	308
+undoc	signame.c	41
+unescape_char	read.c	/^unescape_char (char *string, int c)$/
+unixify	vmsify.c	/^unixify (const char *name)$/
+unixy_shell	job.c	244
+unknown10	alloca.c	340
+unknown11	alloca.c	341
+unknown12	alloca.c	342
+unknown13	alloca.c	343
+unknown14	alloca.c	344
+unknown2	alloca.c	331
+unknown3	alloca.c	332
+unknown5	alloca.c	335
+unknown6	alloca.c	336
+unknown7	alloca.c	337
+unknown8	alloca.c	338
+unknown9	alloca.c	339
+unload_file	load.c	/^unload_file (const char *name)$/
+unload_file	load.c	/^unload_file (const char *name)$/
+update_file	remake.c	/^update_file (struct file *file, unsigned int depth/
+update_file_1	remake.c	/^update_file_1 (struct file *file, unsigned int dep/
+update_goal_chain	remake.c	/^update_goal_chain (struct dep *goals)$/
+uppercasify	vmsfunctions.c	/^#define uppercasify(str) \\$/
+usage	main.c	310
+user	misc.c	507
+user_access	misc.c	/^user_access (void)$/
+user_uid	misc.c	505
+va_copy	output.c	/^# define va_copy(_d, _s) ((_d) = (_s))$/
+va_copy	output.c	/^# define va_copy(_d, _s) ((_d) = (_s))$/
+value_ptr	main.c	104
+variable	main.c	476
+variable_append	expand.c	/^variable_append (const char *name, unsigned int le/
+variable_buffer	expand.c	46
+variable_buffer_length	expand.c	45
+variable_buffer_output	expand.c	/^variable_buffer_output (char *ptr, const char *str/
+variable_expand	expand.c	/^variable_expand (const char *line)$/
+variable_expand_for_file	expand.c	/^variable_expand_for_file (const char *line, struct/
+variable_expand_string	expand.c	/^variable_expand_string (char *line, const char *st/
+variable_hash_1	variable.c	/^variable_hash_1 (const void *keyv)$/
+variable_hash_2	variable.c	/^variable_hash_2 (const void *keyv)$/
+variable_hash_cmp	variable.c	/^variable_hash_cmp (const void *xv, const void *yv)/
+verify_file	file.c	/^verify_file (const void *item)$/
+verify_file_data_base	file.c	/^verify_file_data_base (void)$/
+verify_flag	main.c	135
+version_string	version.c	26
+vfmtconcat	output.c	/^vfmtconcat (const char *fmt, va_list args)$/
+vmodifiers	read.c	62
+vmsHandleChildTerm	vmsjobs.c	/^vmsHandleChildTerm(struct child *child)$/
+vmsWaitForChildren	vmsjobs.c	/^vmsWaitForChildren(int *status)$/
+vms_handle_apos	vmsjobs.c	/^vms_handle_apos (char *p)$/
+vms_hash	dir.c	/^vms_hash (const char *name)$/
+vms_jobsefnmask	vmsjobs.c	25
+vms_redirect	vmsjobs.c	/^vms_redirect (struct dsc$descriptor_s *desc, char /
+vms_stat	vmsfunctions.c	/^vms_stat (char *name, struct stat *buf)$/
+vmsify	vmsify.c	/^vmsify (const char *name, int type)$/
+vmsstat_dir	dir.c	/^vmsstat_dir (const char *name, struct stat *st)$/
+vpath	vpath.c	27
+vpath_search	vpath.c	/^vpath_search (const char *file, FILE_TIMESTAMP *mt/
+vpaths	vpath.c	39
+w32_kill	job.c	/^w32_kill (pid_t pid, int sig)$/
+w_bogus	read.c	75
+w_colon	read.c	75
+w_dcolon	read.c	75
+w_eol	read.c	75
+w_semicolon	read.c	75
+w_static	read.c	75
+w_varassign	read.c	76
+w_variable	read.c	75
+waiting_jobs	job.c	240
+warn_undefined_variables_flag	main.c	285
+wildcard_expansion	amiga.c	/^wildcard_expansion (char *wc, char *o)$/
+windows32_openpipe	function.c	/^windows32_openpipe (int *pipedes, pid_t *pid_p, ch/
+word1eq	read.c	/^#define word1eq(s)      (wlen == CSTRLEN (s) && st/
+word1eq	read.c	1389
+word1eq	read.c	/^#define word1eq(s)      (len == CSTRLEN (s) && str/
+xcalloc	misc.c	212
+xcalloc	misc.c	/^xcalloc (unsigned int size)$/
+xmalloc	misc.c	211
+xmalloc	misc.c	/^xmalloc (unsigned int size)$/
+xrealloc	misc.c	213
+xrealloc	misc.c	/^xrealloc (void *ptr, unsigned int size)$/
+xstrdup	misc.c	214
+xstrdup	misc.c	/^xstrdup (const char *ptr)$/
+xstrndup	misc.c	/^xstrndup (const char *str, unsigned int length)$/

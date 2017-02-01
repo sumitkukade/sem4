@@ -1,0 +1,29 @@
+From 2d8c8e071de087a4bcd8d1d9fd63c82d7f0dcd61 Mon Sep 17 00:00:00 2001
+From: Daniel Richard G <skunk@iskunk.org>
+Date: Sat, 23 Nov 2013 22:31:36 -0500
+Subject: [PATCH 04/11] * load.c: [SV 40515] Define RTLD_GLOBAL if not set.
+
+Copyright-paperwork-exempt: yes
+---
+ load.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/load.c b/load.c
+index a2cbc25..9d201ba 100644
+--- a/load.c
++++ b/load.c
+@@ -30,6 +30,11 @@ this program.  If not, see <http://www.gnu.org/licenses/>.  */
+ #include "filedef.h"
+ #include "variable.h"
+ 
++/* Tru64 V4.0 does not have this flag */
++#ifndef RTLD_GLOBAL
++# define RTLD_GLOBAL 0
++#endif
++
+ struct load_list
+   {
+     struct load_list *next;
+-- 
+2.0.0
+
