@@ -1,5 +1,6 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
+
 int init_module(void)
 {
 	printk(KERN_INFO "Hello World");
@@ -7,5 +8,5 @@ int init_module(void)
 }
 void cleanup_module(void)
 {
-
+	printk(KERN_INFO "Bye World");
 }
