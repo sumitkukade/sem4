@@ -1,0 +1,34 @@
+[se1 assignment ui 1
+
+[subject - SE1-17-UI-SIMPLE]
+[deadline - 12/01/2017]
+[attachment - [
+a single file [rollno].tar.gz containing things specified in the assignment text. 
+]]
+[note - group assignment]
+[assignment text - [
+
+you may meet me if you have any doubts about this assignment.
+]
+  [
+  
+  develop a html-js-css ui application that will allow the user to enter data as discussed in the class.
+  the fields are 
+  first name
+  middle name
+  last name
+  date of birth
+  mobile
+  email
+
+  you should validate the user input upon submit--button-click and display validation report as specified in the lecture.
+
+ you should submit submit a compressed archive containing the following
+ ui-1.html
+ ui-1.js
+ ui-1.css
+]
+
+]
+]
+

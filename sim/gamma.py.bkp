@@ -1,0 +1,56 @@
+import math
+from math import ceil
+def calculate_probability(range_of_hight,histogram_data):
+    histogram_data = []
+    for i in range(len(range_of_hight)-1):
+        histogram_data.append(len(filter(lambda x: range_of_hight[i]<= x and range_of_hight[i+1]> x,my_data)))
+    histogram_data.append(1)
+    
+    #draw_histogram(histogram_data,range_of_hight)
+    return histogram_data
+
+
+def generate_frequency(range_of_hight,my_data):
+    histogram_data = []
+    for i in range(len(range_of_hight)-1):
+        histogram_data.append(len(filter(lambda x: range_of_hight[i]<= x and range_of_hight[i+1]> x,my_data)))
+    histogram_data.append(1)
+    
+    #draw_histogram(histogram_data,range_of_hight)
+    return histogram_data
+
+def calculate_interval_and_bin(my_data):
+    maximum = max(my_data)
+    minimum = min(my_data)
+    intervel = 11
+    binn = (maximum-minimum)-float(intervel)
+    print "min = ",minimum,"\n","max = " , maximum
+    range_of_hight = []
+    i = minimum
+    while(i<maximum):
+        range_of_hight.append(i)
+        i+=binn
+    histogram_data = generate_frequency(range_of_hight,my_data)
+    calculate_probability(range_of_hight,histogram_data)
+
+def f_of_x(x):
+    return (x**3)*exp(-x/float(4))/1536.0
+
+def calc_freq(a,b):
+    freq = 0
+    h = (b-a)/float(100)
+    for i in range(100):
+        freq += h/float(2)*(f_of_x(a+h*i)+f_of_x(a+h*(i+1)))
+
+
+csv = open("2.csv","r")
+my_data = map(lambda x:float(x),csv.readlines())
+count = len(my_data)
+mean = sum(my_data)/float(count)
+variance = sum(map(lambda x:(x-mean)**2,my_data))/float(count)
+print "mean = ",mean,"\n","variance = ",variance
+
+bita = ceil(variance/float(mean))
+alfa = ceil(mean/float(bita))
+print "alfa = ",alfa, "\n" , "bita =  ",bita
+calculate_interval_and_bin(my_data)

@@ -1,0 +1,1234 @@
+<?xml version="1.0"?>
+<objects>
+	<object>
+		<objtype> room </objtype>
+		<objid> room_1 </objid>
+		<objdims>
+			<ab> n_room_1_ab </ab>
+			<ad> n_room_1_ad </ad>
+			<ae> n_room_1_ae </ae>
+		</objdims>
+		<wallthickness>
+			<tabcd> n_room_1_tabcd </tabcd>
+			<tabfe> n_room_1_tabfe </tabfe>
+			<tadhe> n_room_1_tadhe </tadhe>
+			<tghef> n_room_1_tghef </tghef>
+			<tgcdh> n_room_1_tgcdh </tgcdh>
+			<tgcbf> n_room_1_tgcbf </tgcbf>
+		</wallthickness>
+		<object>
+			<objtype> corner: A </objtype>
+			<objid> corner_A_1 </objid>
+			<objdims>
+				<ab> nAB_corner_A_1 </ab>
+				<ad> nAD_corner_A_1 </ad>
+				<ae> nAE_corner_A_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: B </objtype>
+			<objid> corner_B_1 </objid>
+			<objdims>
+				<ab> nAB_corner_B_1 </ab>
+				<ad> nAD_corner_B_1 </ad>
+				<ae> nAE_corner_B_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: C </objtype>
+			<objid> corner_C_1 </objid>
+			<objdims>
+				<ab> nAB_corner_C_1 </ab>
+				<ad> nAD_corner_C_1 </ad>
+				<ae> nAE_corner_C_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: D </objtype>
+			<objid> corner_D_1 </objid>
+			<objdims>
+				<ab> nAB_corner_D_1 </ab>
+				<ad> nAD_corner_D_1 </ad>
+				<ae> nAE_corner_D_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: E </objtype>
+			<objid> corner_E_1 </objid>
+			<objdims>
+				<ab> nAB_corner_E_1 </ab>
+				<ad> nAD_corner_E_1 </ad>
+				<ae> nAE_corner_E_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: F </objtype>
+			<objid> corner_F_1 </objid>
+			<objdims>
+				<ab> nAB_corner_F_1 </ab>
+				<ad> nAD_corner_F_1 </ad>
+				<ae> nAE_corner_F_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: G </objtype>
+			<objid> corner_G_1 </objid>
+			<objdims>
+				<ab> nAB_corner_G_1 </ab>
+				<ad> nAD_corner_G_1 </ad>
+				<ae> nAE_corner_G_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: H </objtype>
+			<objid> corner_H_1 </objid>
+			<objdims>
+				<ab> nAB_corner_H_1 </ab>
+				<ad> nAD_corner_H_1 </ad>
+				<ae> nAE_corner_H_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: AB </objtype>
+			<objid> pillar_AB_1 </objid>
+			<objdims>
+				<ab> nAB_pillar_AB_1 </ab>
+				<ad> nAD_pillar_AB_1 </ad>
+				<ae> nAE_pillar_AB_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: AD </objtype>
+			<objid> pillar_AD_1 </objid>
+			<objdims>
+				<ab> nAB_pillar_AD_1 </ab>
+				<ad> nAD_pillar_AD_1 </ad>
+				<ae> nAE_pillar_AD_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: AE </objtype>
+			<objid> pillar_AE_1 </objid>
+			<objdims>
+				<ab> nAB_pillar_AE_1 </ab>
+				<ad> nAD_pillar_AE_1 </ad>
+				<ae> nAE_pillar_AE_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: BC </objtype>
+			<objid> pillar_BC_1 </objid>
+			<objdims>
+				<ab> nAB_pillar_BC_1 </ab>
+				<ad> nAD_pillar_BC_1 </ad>
+				<ae> nAE_pillar_BC_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: BF </objtype>
+			<objid> pillar_BF_1 </objid>
+			<objdims>
+				<ab> nAB_pillar_BF_1 </ab>
+				<ad> nAD_pillar_BF_1 </ad>
+				<ae> nAE_pillar_BF_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: CD </objtype>
+			<objid> pillar_CD_1 </objid>
+			<objdims>
+				<ab> nAB_pillar_CD_1 </ab>
+				<ad> nAD_pillar_CD_1 </ad>
+				<ae> nAE_pillar_CD_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: CG </objtype>
+			<objid> pillar_CG_1 </objid>
+			<objdims>
+				<ab> nAB_pillar_CG_1 </ab>
+				<ad> nAD_pillar_CG_1 </ad>
+				<ae> nAE_pillar_CG_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: DH </objtype>
+			<objid> pillar_DH_1 </objid>
+			<objdims>
+				<ab> nAB_pillar_DH_1 </ab>
+				<ad> nAD_pillar_DH_1 </ad>
+				<ae> nAE_pillar_DH_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: EF </objtype>
+			<objid> pillar_EF_1 </objid>
+			<objdims>
+				<ab> nAB_pillar_EF_1 </ab>
+				<ad> nAD_pillar_EF_1 </ad>
+				<ae> nAE_pillar_EF_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: EH </objtype>
+			<objid> pillar_EH_1 </objid>
+			<objdims>
+				<ab> nAB_pillar_EH_1 </ab>
+				<ad> nAD_pillar_EH_1 </ad>
+				<ae> nAE_pillar_EH_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: FG </objtype>
+			<objid> pillar_FG_1 </objid>
+			<objdims>
+				<ab> nAB_pillar_FG_1 </ab>
+				<ad> nAD_pillar_FG_1 </ad>
+				<ae> nAE_pillar_FG_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: GH </objtype>
+			<objid> pillar_GH_1 </objid>
+			<objdims>
+				<ab> nAB_pillar_GH_1 </ab>
+				<ad> nAD_pillar_GH_1 </ad>
+				<ae> nAE_pillar_GH_1 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> wall: ABCD </objtype>
+			<objid> wall_ABCD_1 </objid>
+			<objdims>
+				<ab> nAB_wall_ABCD_1 </ab>
+				<ad> nAD_wall_ABCD_1 </ad>
+				<ae> nAE_wall_ABCD_1 </ae>
+			</objdims>
+			<align> abcd </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_ABCD_1__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_ABCD_1__0 </ab>
+						<ad> nAD_doorwall_ABCD_1__0 </ad>
+						<ae> nAE_doorwall_ABCD_1__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_ABCD_1__0 </ab>
+						<ad> dis_nAD_doorwall_ABCD_1__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: ABFE </objtype>
+			<objid> wall_ABFE_1 </objid>
+			<objdims>
+				<ab> nAB_wall_ABFE_1 </ab>
+				<ad> nAD_wall_ABFE_1 </ad>
+				<ae> nAE_wall_ABFE_1 </ae>
+			</objdims>
+			<align> bcda </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_ABFE_1__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_ABFE_1__0 </ab>
+						<ad> nAD_doorwall_ABFE_1__0 </ad>
+						<ae> nAE_doorwall_ABFE_1__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_ABFE_1__0 </ab>
+						<ad> dis_nAD_doorwall_ABFE_1__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_ABFE_1__1 </objid>
+					<objdims>
+						<ab> nAB_doorwall_ABFE_1__1 </ab>
+						<ad> nAD_doorwall_ABFE_1__1 </ad>
+						<ae> nAE_doorwall_ABFE_1__1 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_ABFE_1__1 </ab>
+						<ad> dis_nAD_doorwall_ABFE_1__1 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: ADHE </objtype>
+			<objid> wall_ADHE_1 </objid>
+			<objdims>
+				<ab> nAB_wall_ADHE_1 </ab>
+				<ad> nAD_wall_ADHE_1 </ad>
+				<ae> nAE_wall_ADHE_1 </ae>
+			</objdims>
+			<align> cdab </align>
+			<doors>
+
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: EFGH </objtype>
+			<objid> wall_EFGH_1 </objid>
+			<objdims>
+				<ab> nAB_wall_EFGH_1 </ab>
+				<ad> nAD_wall_EFGH_1 </ad>
+				<ae> nAE_wall_EFGH_1 </ae>
+			</objdims>
+			<align> dabc </align>
+			<doors>
+
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: BCGF </objtype>
+			<objid> wall_BCGF_1 </objid>
+			<objdims>
+				<ab> nAB_wall_BCGF_1 </ab>
+				<ad> nAD_wall_BCGF_1 </ad>
+				<ae> nAE_wall_BCGF_1 </ae>
+			</objdims>
+			<align> dcba </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_BCGF_1__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_BCGF_1__0 </ab>
+						<ad> nAD_doorwall_BCGF_1__0 </ad>
+						<ae> nAE_doorwall_BCGF_1__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_BCGF_1__0 </ab>
+						<ad> dis_nAD_doorwall_BCGF_1__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: DCGH </objtype>
+			<objid> wall_DCGH_1 </objid>
+			<objdims>
+				<ab> nAB_wall_DCGH_1 </ab>
+				<ad> nAD_wall_DCGH_1 </ad>
+				<ae> nAE_wall_DCGH_1 </ae>
+			</objdims>
+			<align> cbad </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_DCGH_1__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_DCGH_1__0 </ab>
+						<ad> nAD_doorwall_DCGH_1__0 </ad>
+						<ae> nAE_doorwall_DCGH_1__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_DCGH_1__0 </ab>
+						<ad> dis_nAD_doorwall_DCGH_1__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_DCGH_1__1 </objid>
+					<objdims>
+						<ab> nAB_doorwall_DCGH_1__1 </ab>
+						<ad> nAD_doorwall_DCGH_1__1 </ad>
+						<ae> nAE_doorwall_DCGH_1__1 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_DCGH_1__1 </ab>
+						<ad> dis_nAD_doorwall_DCGH_1__1 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_DCGH_1__2 </objid>
+					<objdims>
+						<ab> nAB_doorwall_DCGH_1__2 </ab>
+						<ad> nAD_doorwall_DCGH_1__2 </ad>
+						<ae> nAE_doorwall_DCGH_1__2 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_DCGH_1__2 </ab>
+						<ad> dis_nAD_doorwall_DCGH_1__2 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+	</object>
+	<object>
+		<objtype> room </objtype>
+		<objid> room_2 </objid>
+		<objdims>
+			<ab> n_room_2_ab </ab>
+			<ad> n_room_2_ad </ad>
+			<ae> n_room_2_ae </ae>
+		</objdims>
+		<wallthickness>
+			<tabcd> n_room_2_tabcd </tabcd>
+			<tabfe> n_room_2_tabfe </tabfe>
+			<tadhe> n_room_2_tadhe </tadhe>
+			<tghef> n_room_2_tghef </tghef>
+			<tgcdh> n_room_2_tgcdh </tgcdh>
+			<tgcbf> n_room_2_tgcbf </tgcbf>
+		</wallthickness>
+		<object>
+			<objtype> corner: a </objtype>
+			<objid> corner_a_2 </objid>
+			<objdims>
+				<ab> nAB_corner_a_2 </ab>
+				<ad> nAD_corner_a_2 </ad>
+				<ae> nAE_corner_a_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: b </objtype>
+			<objid> corner_b_2 </objid>
+			<objdims>
+				<ab> nAB_corner_b_2 </ab>
+				<ad> nAD_corner_b_2 </ad>
+				<ae> nAE_corner_b_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: c </objtype>
+			<objid> corner_c_2 </objid>
+			<objdims>
+				<ab> nAB_corner_c_2 </ab>
+				<ad> nAD_corner_c_2 </ad>
+				<ae> nAE_corner_c_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: d </objtype>
+			<objid> corner_d_2 </objid>
+			<objdims>
+				<ab> nAB_corner_d_2 </ab>
+				<ad> nAD_corner_d_2 </ad>
+				<ae> nAE_corner_d_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: e </objtype>
+			<objid> corner_e_2 </objid>
+			<objdims>
+				<ab> nAB_corner_e_2 </ab>
+				<ad> nAD_corner_e_2 </ad>
+				<ae> nAE_corner_e_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: f </objtype>
+			<objid> corner_f_2 </objid>
+			<objdims>
+				<ab> nAB_corner_f_2 </ab>
+				<ad> nAD_corner_f_2 </ad>
+				<ae> nAE_corner_f_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: g </objtype>
+			<objid> corner_g_2 </objid>
+			<objdims>
+				<ab> nAB_corner_g_2 </ab>
+				<ad> nAD_corner_g_2 </ad>
+				<ae> nAE_corner_g_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: h </objtype>
+			<objid> corner_h_2 </objid>
+			<objdims>
+				<ab> nAB_corner_h_2 </ab>
+				<ad> nAD_corner_h_2 </ad>
+				<ae> nAE_corner_h_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: ab </objtype>
+			<objid> pillar_ab_2 </objid>
+			<objdims>
+				<ab> nAB_pillar_ab_2 </ab>
+				<ad> nAD_pillar_ab_2 </ad>
+				<ae> nAE_pillar_ab_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: ad </objtype>
+			<objid> pillar_ad_2 </objid>
+			<objdims>
+				<ab> nAB_pillar_ad_2 </ab>
+				<ad> nAD_pillar_ad_2 </ad>
+				<ae> nAE_pillar_ad_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: ae </objtype>
+			<objid> pillar_ae_2 </objid>
+			<objdims>
+				<ab> nAB_pillar_ae_2 </ab>
+				<ad> nAD_pillar_ae_2 </ad>
+				<ae> nAE_pillar_ae_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: bc </objtype>
+			<objid> pillar_bc_2 </objid>
+			<objdims>
+				<ab> nAB_pillar_bc_2 </ab>
+				<ad> nAD_pillar_bc_2 </ad>
+				<ae> nAE_pillar_bc_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: bf </objtype>
+			<objid> pillar_bf_2 </objid>
+			<objdims>
+				<ab> nAB_pillar_bf_2 </ab>
+				<ad> nAD_pillar_bf_2 </ad>
+				<ae> nAE_pillar_bf_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: cd </objtype>
+			<objid> pillar_cd_2 </objid>
+			<objdims>
+				<ab> nAB_pillar_cd_2 </ab>
+				<ad> nAD_pillar_cd_2 </ad>
+				<ae> nAE_pillar_cd_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: cg </objtype>
+			<objid> pillar_cg_2 </objid>
+			<objdims>
+				<ab> nAB_pillar_cg_2 </ab>
+				<ad> nAD_pillar_cg_2 </ad>
+				<ae> nAE_pillar_cg_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: dh </objtype>
+			<objid> pillar_dh_2 </objid>
+			<objdims>
+				<ab> nAB_pillar_dh_2 </ab>
+				<ad> nAD_pillar_dh_2 </ad>
+				<ae> nAE_pillar_dh_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: ef </objtype>
+			<objid> pillar_ef_2 </objid>
+			<objdims>
+				<ab> nAB_pillar_ef_2 </ab>
+				<ad> nAD_pillar_ef_2 </ad>
+				<ae> nAE_pillar_ef_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: eh </objtype>
+			<objid> pillar_eh_2 </objid>
+			<objdims>
+				<ab> nAB_pillar_eh_2 </ab>
+				<ad> nAD_pillar_eh_2 </ad>
+				<ae> nAE_pillar_eh_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: fg </objtype>
+			<objid> pillar_fg_2 </objid>
+			<objdims>
+				<ab> nAB_pillar_fg_2 </ab>
+				<ad> nAD_pillar_fg_2 </ad>
+				<ae> nAE_pillar_fg_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: gh </objtype>
+			<objid> pillar_gh_2 </objid>
+			<objdims>
+				<ab> nAB_pillar_gh_2 </ab>
+				<ad> nAD_pillar_gh_2 </ad>
+				<ae> nAE_pillar_gh_2 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> wall: abcd </objtype>
+			<objid> wall_abcd_2 </objid>
+			<objdims>
+				<ab> nAB_wall_abcd_2 </ab>
+				<ad> nAD_wall_abcd_2 </ad>
+				<ae> nAE_wall_abcd_2 </ae>
+			</objdims>
+			<align> abcd </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_abcd_2__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_abcd_2__0 </ab>
+						<ad> nAD_doorwall_abcd_2__0 </ad>
+						<ae> nAE_doorwall_abcd_2__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_abcd_2__0 </ab>
+						<ad> dis_nAD_doorwall_abcd_2__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_abcd_2__1 </objid>
+					<objdims>
+						<ab> nAB_doorwall_abcd_2__1 </ab>
+						<ad> nAD_doorwall_abcd_2__1 </ad>
+						<ae> nAE_doorwall_abcd_2__1 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_abcd_2__1 </ab>
+						<ad> dis_nAD_doorwall_abcd_2__1 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: abfe </objtype>
+			<objid> wall_abfe_2 </objid>
+			<objdims>
+				<ab> nAB_wall_abfe_2 </ab>
+				<ad> nAD_wall_abfe_2 </ad>
+				<ae> nAE_wall_abfe_2 </ae>
+			</objdims>
+			<align> cdab </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_abfe_2__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_abfe_2__0 </ab>
+						<ad> nAD_doorwall_abfe_2__0 </ad>
+						<ae> nAE_doorwall_abfe_2__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_abfe_2__0 </ab>
+						<ad> dis_nAD_doorwall_abfe_2__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: adhe </objtype>
+			<objid> wall_adhe_2 </objid>
+			<objdims>
+				<ab> nAB_wall_adhe_2 </ab>
+				<ad> nAD_wall_adhe_2 </ad>
+				<ae> nAE_wall_adhe_2 </ae>
+			</objdims>
+			<align> cdab </align>
+			<doors>
+
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: efgh </objtype>
+			<objid> wall_efgh_2 </objid>
+			<objdims>
+				<ab> nAB_wall_efgh_2 </ab>
+				<ad> nAD_wall_efgh_2 </ad>
+				<ae> nAE_wall_efgh_2 </ae>
+			</objdims>
+			<align> dabc </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_efgh_2__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_efgh_2__0 </ab>
+						<ad> nAD_doorwall_efgh_2__0 </ad>
+						<ae> nAE_doorwall_efgh_2__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_efgh_2__0 </ab>
+						<ad> dis_nAD_doorwall_efgh_2__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_efgh_2__1 </objid>
+					<objdims>
+						<ab> nAB_doorwall_efgh_2__1 </ab>
+						<ad> nAD_doorwall_efgh_2__1 </ad>
+						<ae> nAE_doorwall_efgh_2__1 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_efgh_2__1 </ab>
+						<ad> dis_nAD_doorwall_efgh_2__1 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_efgh_2__2 </objid>
+					<objdims>
+						<ab> nAB_doorwall_efgh_2__2 </ab>
+						<ad> nAD_doorwall_efgh_2__2 </ad>
+						<ae> nAE_doorwall_efgh_2__2 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_efgh_2__2 </ab>
+						<ad> dis_nAD_doorwall_efgh_2__2 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: bcgf </objtype>
+			<objid> wall_bcgf_2 </objid>
+			<objdims>
+				<ab> nAB_wall_bcgf_2 </ab>
+				<ad> nAD_wall_bcgf_2 </ad>
+				<ae> nAE_wall_bcgf_2 </ae>
+			</objdims>
+			<align> dcba </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_bcgf_2__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_bcgf_2__0 </ab>
+						<ad> nAD_doorwall_bcgf_2__0 </ad>
+						<ae> nAE_doorwall_bcgf_2__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_bcgf_2__0 </ab>
+						<ad> dis_nAD_doorwall_bcgf_2__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_bcgf_2__1 </objid>
+					<objdims>
+						<ab> nAB_doorwall_bcgf_2__1 </ab>
+						<ad> nAD_doorwall_bcgf_2__1 </ad>
+						<ae> nAE_doorwall_bcgf_2__1 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_bcgf_2__1 </ab>
+						<ad> dis_nAD_doorwall_bcgf_2__1 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: dcgh </objtype>
+			<objid> wall_dcgh_2 </objid>
+			<objdims>
+				<ab> nAB_wall_dcgh_2 </ab>
+				<ad> nAD_wall_dcgh_2 </ad>
+				<ae> nAE_wall_dcgh_2 </ae>
+			</objdims>
+			<align> cbad </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_dcgh_2__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_dcgh_2__0 </ab>
+						<ad> nAD_doorwall_dcgh_2__0 </ad>
+						<ae> nAE_doorwall_dcgh_2__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_dcgh_2__0 </ab>
+						<ad> dis_nAD_doorwall_dcgh_2__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_dcgh_2__1 </objid>
+					<objdims>
+						<ab> nAB_doorwall_dcgh_2__1 </ab>
+						<ad> nAD_doorwall_dcgh_2__1 </ad>
+						<ae> nAE_doorwall_dcgh_2__1 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_dcgh_2__1 </ab>
+						<ad> dis_nAD_doorwall_dcgh_2__1 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_dcgh_2__2 </objid>
+					<objdims>
+						<ab> nAB_doorwall_dcgh_2__2 </ab>
+						<ad> nAD_doorwall_dcgh_2__2 </ad>
+						<ae> nAE_doorwall_dcgh_2__2 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_dcgh_2__2 </ab>
+						<ad> dis_nAD_doorwall_dcgh_2__2 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+	</object>
+	<object>
+		<objtype> room </objtype>
+		<objid> room_3 </objid>
+		<objdims>
+			<ab> n_room_3_ab </ab>
+			<ad> n_room_3_ad </ad>
+			<ae> n_room_3_ae </ae>
+		</objdims>
+		<wallthickness>
+			<tabcd> n_room_3_tabcd </tabcd>
+			<tabfe> n_room_3_tabfe </tabfe>
+			<tadhe> n_room_3_tadhe </tadhe>
+			<tghef> n_room_3_tghef </tghef>
+			<tgcdh> n_room_3_tgcdh </tgcdh>
+			<tgcbf> n_room_3_tgcbf </tgcbf>
+		</wallthickness>
+		<object>
+			<objtype> corner: a </objtype>
+			<objid> corner_a_3 </objid>
+			<objdims>
+				<ab> nAB_corner_a_3 </ab>
+				<ad> nAD_corner_a_3 </ad>
+				<ae> nAE_corner_a_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: b </objtype>
+			<objid> corner_b_3 </objid>
+			<objdims>
+				<ab> nAB_corner_b_3 </ab>
+				<ad> nAD_corner_b_3 </ad>
+				<ae> nAE_corner_b_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: c </objtype>
+			<objid> corner_c_3 </objid>
+			<objdims>
+				<ab> nAB_corner_c_3 </ab>
+				<ad> nAD_corner_c_3 </ad>
+				<ae> nAE_corner_c_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: d </objtype>
+			<objid> corner_d_3 </objid>
+			<objdims>
+				<ab> nAB_corner_d_3 </ab>
+				<ad> nAD_corner_d_3 </ad>
+				<ae> nAE_corner_d_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: e </objtype>
+			<objid> corner_e_3 </objid>
+			<objdims>
+				<ab> nAB_corner_e_3 </ab>
+				<ad> nAD_corner_e_3 </ad>
+				<ae> nAE_corner_e_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: f </objtype>
+			<objid> corner_f_3 </objid>
+			<objdims>
+				<ab> nAB_corner_f_3 </ab>
+				<ad> nAD_corner_f_3 </ad>
+				<ae> nAE_corner_f_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: g </objtype>
+			<objid> corner_g_3 </objid>
+			<objdims>
+				<ab> nAB_corner_g_3 </ab>
+				<ad> nAD_corner_g_3 </ad>
+				<ae> nAE_corner_g_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> corner: h </objtype>
+			<objid> corner_h_3 </objid>
+			<objdims>
+				<ab> nAB_corner_h_3 </ab>
+				<ad> nAD_corner_h_3 </ad>
+				<ae> nAE_corner_h_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: ab </objtype>
+			<objid> pillar_ab_3 </objid>
+			<objdims>
+				<ab> nAB_pillar_ab_3 </ab>
+				<ad> nAD_pillar_ab_3 </ad>
+				<ae> nAE_pillar_ab_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: ad </objtype>
+			<objid> pillar_ad_3 </objid>
+			<objdims>
+				<ab> nAB_pillar_ad_3 </ab>
+				<ad> nAD_pillar_ad_3 </ad>
+				<ae> nAE_pillar_ad_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: ae </objtype>
+			<objid> pillar_ae_3 </objid>
+			<objdims>
+				<ab> nAB_pillar_ae_3 </ab>
+				<ad> nAD_pillar_ae_3 </ad>
+				<ae> nAE_pillar_ae_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: bc </objtype>
+			<objid> pillar_bc_3 </objid>
+			<objdims>
+				<ab> nAB_pillar_bc_3 </ab>
+				<ad> nAD_pillar_bc_3 </ad>
+				<ae> nAE_pillar_bc_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: bf </objtype>
+			<objid> pillar_bf_3 </objid>
+			<objdims>
+				<ab> nAB_pillar_bf_3 </ab>
+				<ad> nAD_pillar_bf_3 </ad>
+				<ae> nAE_pillar_bf_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: cd </objtype>
+			<objid> pillar_cd_3 </objid>
+			<objdims>
+				<ab> nAB_pillar_cd_3 </ab>
+				<ad> nAD_pillar_cd_3 </ad>
+				<ae> nAE_pillar_cd_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: cg </objtype>
+			<objid> pillar_cg_3 </objid>
+			<objdims>
+				<ab> nAB_pillar_cg_3 </ab>
+				<ad> nAD_pillar_cg_3 </ad>
+				<ae> nAE_pillar_cg_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: dh </objtype>
+			<objid> pillar_dh_3 </objid>
+			<objdims>
+				<ab> nAB_pillar_dh_3 </ab>
+				<ad> nAD_pillar_dh_3 </ad>
+				<ae> nAE_pillar_dh_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: ef </objtype>
+			<objid> pillar_ef_3 </objid>
+			<objdims>
+				<ab> nAB_pillar_ef_3 </ab>
+				<ad> nAD_pillar_ef_3 </ad>
+				<ae> nAE_pillar_ef_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: eh </objtype>
+			<objid> pillar_eh_3 </objid>
+			<objdims>
+				<ab> nAB_pillar_eh_3 </ab>
+				<ad> nAD_pillar_eh_3 </ad>
+				<ae> nAE_pillar_eh_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: fg </objtype>
+			<objid> pillar_fg_3 </objid>
+			<objdims>
+				<ab> nAB_pillar_fg_3 </ab>
+				<ad> nAD_pillar_fg_3 </ad>
+				<ae> nAE_pillar_fg_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> pillar: gh </objtype>
+			<objid> pillar_gh_3 </objid>
+			<objdims>
+				<ab> nAB_pillar_gh_3 </ab>
+				<ad> nAD_pillar_gh_3 </ad>
+				<ae> nAE_pillar_gh_3 </ae>
+			</objdims>
+		</object>
+		<object>
+			<objtype> wall: abcd </objtype>
+			<objid> wall_abcd_3 </objid>
+			<objdims>
+				<ab> nAB_wall_abcd_3 </ab>
+				<ad> nAD_wall_abcd_3 </ad>
+				<ae> nAE_wall_abcd_3 </ae>
+			</objdims>
+			<align> abcd </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_abcd_3__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_abcd_3__0 </ab>
+						<ad> nAD_doorwall_abcd_3__0 </ad>
+						<ae> nAE_doorwall_abcd_3__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_abcd_3__0 </ab>
+						<ad> dis_nAD_doorwall_abcd_3__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_abcd_3__1 </objid>
+					<objdims>
+						<ab> nAB_doorwall_abcd_3__1 </ab>
+						<ad> nAD_doorwall_abcd_3__1 </ad>
+						<ae> nAE_doorwall_abcd_3__1 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_abcd_3__1 </ab>
+						<ad> dis_nAD_doorwall_abcd_3__1 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_abcd_3__2 </objid>
+					<objdims>
+						<ab> nAB_doorwall_abcd_3__2 </ab>
+						<ad> nAD_doorwall_abcd_3__2 </ad>
+						<ae> nAE_doorwall_abcd_3__2 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_abcd_3__2 </ab>
+						<ad> dis_nAD_doorwall_abcd_3__2 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: abfe </objtype>
+			<objid> wall_abfe_3 </objid>
+			<objdims>
+				<ab> nAB_wall_abfe_3 </ab>
+				<ad> nAD_wall_abfe_3 </ad>
+				<ae> nAE_wall_abfe_3 </ae>
+			</objdims>
+			<align> dabc </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_abfe_3__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_abfe_3__0 </ab>
+						<ad> nAD_doorwall_abfe_3__0 </ad>
+						<ae> nAE_doorwall_abfe_3__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_abfe_3__0 </ab>
+						<ad> dis_nAD_doorwall_abfe_3__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_abfe_3__1 </objid>
+					<objdims>
+						<ab> nAB_doorwall_abfe_3__1 </ab>
+						<ad> nAD_doorwall_abfe_3__1 </ad>
+						<ae> nAE_doorwall_abfe_3__1 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_abfe_3__1 </ab>
+						<ad> dis_nAD_doorwall_abfe_3__1 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_abfe_3__2 </objid>
+					<objdims>
+						<ab> nAB_doorwall_abfe_3__2 </ab>
+						<ad> nAD_doorwall_abfe_3__2 </ad>
+						<ae> nAE_doorwall_abfe_3__2 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_abfe_3__2 </ab>
+						<ad> dis_nAD_doorwall_abfe_3__2 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_abfe_3__3 </objid>
+					<objdims>
+						<ab> nAB_doorwall_abfe_3__3 </ab>
+						<ad> nAD_doorwall_abfe_3__3 </ad>
+						<ae> nAE_doorwall_abfe_3__3 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_abfe_3__3 </ab>
+						<ad> dis_nAD_doorwall_abfe_3__3 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: adhe </objtype>
+			<objid> wall_adhe_3 </objid>
+			<objdims>
+				<ab> nAB_wall_adhe_3 </ab>
+				<ad> nAD_wall_adhe_3 </ad>
+				<ae> nAE_wall_adhe_3 </ae>
+			</objdims>
+			<align> dabc </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_adhe_3__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_adhe_3__0 </ab>
+						<ad> nAD_doorwall_adhe_3__0 </ad>
+						<ae> nAE_doorwall_adhe_3__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_adhe_3__0 </ab>
+						<ad> dis_nAD_doorwall_adhe_3__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_adhe_3__1 </objid>
+					<objdims>
+						<ab> nAB_doorwall_adhe_3__1 </ab>
+						<ad> nAD_doorwall_adhe_3__1 </ad>
+						<ae> nAE_doorwall_adhe_3__1 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_adhe_3__1 </ab>
+						<ad> dis_nAD_doorwall_adhe_3__1 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: efgh </objtype>
+			<objid> wall_efgh_3 </objid>
+			<objdims>
+				<ab> nAB_wall_efgh_3 </ab>
+				<ad> nAD_wall_efgh_3 </ad>
+				<ae> nAE_wall_efgh_3 </ae>
+			</objdims>
+			<align> dabc </align>
+			<doors>
+
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: bcgf </objtype>
+			<objid> wall_bcgf_3 </objid>
+			<objdims>
+				<ab> nAB_wall_bcgf_3 </ab>
+				<ad> nAD_wall_bcgf_3 </ad>
+				<ae> nAE_wall_bcgf_3 </ae>
+			</objdims>
+			<align> dcba </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_bcgf_3__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_bcgf_3__0 </ab>
+						<ad> nAD_doorwall_bcgf_3__0 </ad>
+						<ae> nAE_doorwall_bcgf_3__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_bcgf_3__0 </ab>
+						<ad> dis_nAD_doorwall_bcgf_3__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+		<object>
+			<objtype> wall: dcgh </objtype>
+			<objid> wall_dcgh_3 </objid>
+			<objdims>
+				<ab> nAB_wall_dcgh_3 </ab>
+				<ad> nAD_wall_dcgh_3 </ad>
+				<ae> nAE_wall_dcgh_3 </ae>
+			</objdims>
+			<align> cbad </align>
+			<doors>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_dcgh_3__0 </objid>
+					<objdims>
+						<ab> nAB_doorwall_dcgh_3__0 </ab>
+						<ad> nAD_doorwall_dcgh_3__0 </ad>
+						<ae> nAE_doorwall_dcgh_3__0 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_dcgh_3__0 </ab>
+						<ad> dis_nAD_doorwall_dcgh_3__0 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+				<object>
+					<objtype> door </objtype>
+					<objid> doorwall_dcgh_3__1 </objid>
+					<objdims>
+						<ab> nAB_doorwall_dcgh_3__1 </ab>
+						<ad> nAD_doorwall_dcgh_3__1 </ad>
+						<ae> nAE_doorwall_dcgh_3__1 </ae>
+					</objdims>
+					<doordis>
+						<ab> dis_nAB_doorwall_dcgh_3__1 </ab>
+						<ad> dis_nAD_doorwall_dcgh_3__1 </ad>
+					</doordis>
+					<align> abcd </align>
+				</object>
+			</doors>
+		</object>
+	</object>
+</objects>

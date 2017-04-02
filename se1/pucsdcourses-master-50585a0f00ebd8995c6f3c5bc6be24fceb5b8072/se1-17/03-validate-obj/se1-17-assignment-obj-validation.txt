@@ -1,0 +1,37 @@
+[ assignment
+
+[subject - [SE1-17-VALIDATE-OBJECT]]
+[deadline - 04/02/2017]
+[attachment - a single file [rollno].tar.gz]
+[note - a group assignment, backlog students should also do it]
+[assignment text - [
+
+consider the sample-rooms.xml file. this file contains definitions of one or more room object[s] and their constituent objects [i.e. corners, pillars, walls and doors]
+
+conditions - 
+  - every object id [objid] should be unique
+  - the dimensions of rooms and its constituent objects should match and should be sufficient 
+    to hold the placement of constituent objects [e.g. walls, doors etc]
+  - unless given explicitly, the alignment of door/wall must be assumed to be abcd 
+  - alignment should be valid
+
+you have to write a program that will validate the objects given in the input xml file against at least the conditions listed above [you may add more [non-contradicting] conditions], that you think are useful.
+
+note that i have deliberately put the dimensions as strings, your program should treat them as values and should match them literally. if they don't match, then your program should output an error report detailing what was expected,
+e.g. thickness of the wall ABCD should match with the length of the corner A along the AE axis 
+but in the given sample xml file they don't match 
+so your program's output should contain a line as shown below
+
+error: <dimension_mismatch> <wallthickness> <tabcd> of <object (id: room_1, type: room)> defined on <line 12> does not match with <objdims> <ae> of <object (id: corner_A_1, type: corner A)> defined on <line 25>. Values supplied are (<line 12: n_room_1_tabcd>, <line 25: nAE_corner_A_1>). These two values should match.
+
+your program should be run as follows -
+
+$ validate-objects sample-rooms.xml output.txt
+
+i will explain this problem and also discuss any related difficulties during the lecture on 30/01/2017.
+
+you may find the type information given in the file ValidateObjects.lhs useful. note that the object constructor given there, although general and good enough to capture the required semantics, lacks some good features and thus can/must be improved [e.g. with the help of typeclasses], people who are doing it in haskell may give a thought to it.
+
+]
+]
+]

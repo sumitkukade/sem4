@@ -1,0 +1,26 @@
+[ assignment se2 
+
+[subject - SE2-17-AUTH-1]
+[deadline - 20/02/2017]
+[note - group assignment]
+[attachment - a single file [rollno].tar.gz]
+
+
+[assignment text - [
+
+implment a better and more sophisticated authentication support for your web app using apache mod_auth_tkt. understand that this module is language independent, so you can/must integrate it with your login/password code. note that this uses cookies, but that won't be an issue for us, as we will not support any browsers without cookie support. 
+
+i'll discuss this in the class. 
+
+during the eval, [which you will have to give after the deadline as per the schedule to be announced yet], you should be able to demonstrate the working auth system, based on the following -
+ - mod_auth_tkt
+ - sqlite3/postgres db for username/password storage
+ - your auth app that will talk with mod_auth_tkt
+ - with other messaging components, if any, [for bonus credit]
+
+[auth] https://github.com/gavincarr/mod_auth_tkt
+[epoll] https://pypi.python.org/pypi/python-epoll/1.0
+
+]
+]
+]

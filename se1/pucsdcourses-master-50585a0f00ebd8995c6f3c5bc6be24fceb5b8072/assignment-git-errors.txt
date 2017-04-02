@@ -1,0 +1,24 @@
+[ assignment se1,se2 
+
+[subject - SE12-17-GIT-CORRECT]
+[deadline - 02/01/2017]
+[note - group assignment]
+[attachment - a single file with txt extension]
+
+[assignment text - [
+
+some of you have not named your repo as se1-17 or se2-17
+such repos will be rejected. if you have not done it correctly, then you have to create a repo
+with correct name as required and submit a mail accordingly.
+
+create a file named roll1.txt, or roll1-roll2.txt, or roll1-roll2-roll3.txt, as the case may be, where roll1, roll2, roll3 are the roll numbers of the project group members, in the root directory of your project repo. write the gitlab link to your repo in that file and commit it.
+
+you have to send this same file as an email attachment to my gmail account.
+
+also create a readme.md in the root directory of your project repo and put some info about your project in it. do not send this file to me on email.
+
+note - you should not put `[` or `]` characters in the file/directory names. file/directory names should comprise of only english alphabet, decimal digits, hyphen and underscore characters, unless otherwise specified.
+
+]
+]
+]

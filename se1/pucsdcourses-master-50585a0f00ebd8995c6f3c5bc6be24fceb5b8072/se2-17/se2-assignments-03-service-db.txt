@@ -1,0 +1,34 @@
+[ assignment se2 
+
+[subject - SE2-17-DB-1]
+[deadline - 28/01/2017]
+[note - group assignment]
+[attachment - a single file [rollno].tar.gz]
+
+[assignment text - [
+
+write a schema for the msg-db
+
+relations/tables outline
+ - users  - sysuserid, userid, username, dob, email
+ - groups - sysgroupid, groupid, groupname
+ - members - memberid
+ - groupMembers - groupid, memberid, accessRight
+ - accessRights - accessRight, accessRightDescriptions
+ - msgSourceStore - sysuserid, msgid, msgtext, msgTimestamp, draftOrSent, 
+ - msgSinkStore - memberid, msgid, msgtext, msgTimestamp
+ - msgAttachments - msgid, atchid, atchname, atchblob
+ - memberLabels - memberid, label, labelDescription
+ - memberLabelGroups - memberid, label, parentLabel
+ - memberMsgLabels - memberid, msgid, label
+
+you should add fields/tables that you think are required for the system to support sending/receiving of messages from users to users/groups .
+note that the system is bunch of services working async.
+
+you should think as to how the functionalities like moderation/upvote/downvote etc can be added, but this is not strictly required.
+
+
+]
+]
+]
+

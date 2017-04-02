@@ -1,0 +1,56 @@
+[ assignment se2 
+
+[subject - SE2-17-SERVICE-1]
+[deadline - 20/01/2017]
+[note - group assignment]
+[attachment - a single file [rollno].tar.gz]
+
+[assignment text - [
+
+implement the web ui, db and backend parts for the messaging application discussed in the class. [you may refer [reddit, twitter, facebook]]
+
+[[reddit, twitter, facebook] see these sites, which are basically messaging apps
+[https://www.reddit.com/]]
+
+[
+[ [ui] - 
+
+at least the web based ui to allow the users following functionality
+ - send json file with priority
+ - change priority of already sent file
+
+you can implement this browser based ui in html-js-css [keep it as simple as you can]
+
+[[need not be submitted now] for more advanced scenario, your application should support ui through other services
+ [ui-udp] a service running on a udp port
+]
+]
+
+[
+[web-service]
+ apache + gateway support [called web-backend here] for python/php/java/scala/haskell/c++/js as the case may be
+
+you may choose php/python/java/scala/haskell/c++/js[nodejs] for this.
+
+[db] 
+at least one db using sqlite3
+for more advanced scenario sqlite3 + pgsql + [some newsql dbms]
+ [[some newsql dbms]
+ https://github.com/VoltDB/voltdb/
+ http://pelotondb.io/about/
+ https://sourceforge.net/projects/postgres-xc/
+ https://451research.com/report-long?icid=1651
+ http://www.cubrid.org/blog/dev-platform/spanner-globally-distributed-database-by-google/
+ http://continuent.com/
+ mariadb
+ ]
+
+[app-backend]
+you should integrate at least 3 services, the file-watcher, the compressor and the validator that you have implimented already.
+]
+
+]
+]
+]
+]
+
